@@ -1,0 +1,58 @@
+name: scan
+
+on:
+  schedule:
+    - cron: '50 23 * * 0-4'
+    - cron: '5 1 * * 1-5'
+    - cron: '25 1 * * 1-5'
+    - cron: '0 5 * * 1-5'
+    - cron: '32 5 * * 1-5'
+    - cron: '10 7 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'backfill | premarket | open | volk | close'
+        required: true
+        default: backfill
+      force:
+        description: 'overwrite existing open snapshot'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: pick mode
+        id: m
+        run: |
+          case "${{ github.event.schedule }}" in
+            '50 23 * * 0-4') MODE=premarket ;;
+            '5 1 * * 1-5'|'25 1 * * 1-5') MODE=open ;;
+            '0 5 * * 1-5'|'32 5 * * 1-5') MODE=volk ;;
+            '10 7 * * 1-5') MODE=close ;;
+            *) MODE="${{ github.event.inputs.mode }}" ;;
+          esac
+          echo "mode=$MODE" >> "$GITHUB_OUTPUT"
+      - name: run scanner
+        run: node scripts/scan.mjs ${{ steps.m.outputs.mode }} ${{ github.event.inputs.force == 'true' && '--force' || '' }}
+      - name: commit data
+        run: |
+          git config user.name "scanner-bot"
+          git config user.email "scanner-bot@users.noreply.github.com"
+          git add public/data data
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "data: ${{ steps.m.outputs.mode }} $(TZ=Asia/Taipei date '+%Y-%m-%d %H:%M')"
+          for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 5; done
