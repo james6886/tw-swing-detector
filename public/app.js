@@ -19,39 +19,67 @@
     f: { chg: 7, vol: 7000, gapOnly: false, all: false },
     sort: 'big', filter: 'all', open: new Set(), hotOpen: new Set(),
     live: {},
+    view: null, // 'snap' = 09:15 snapshot, 'live' = full-market scan right now
+    liveScan: null, liveErr: false, lastTick: null,
+    pageSnap: null, snapping: false, // 09:15 snapshot taken by this page itself, so nobody waits for the GitHub job
   };
+  try {
+    const saved = JSON.parse(localStorage.getItem('pageSnap') || 'null');
+    if (saved) state.pageSnap = saved;
+  } catch { /* storage unavailable */ }
+  const twNow = () => {
+    const p = Object.fromEntries(new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Taipei', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false, weekday: 'short' }).formatToParts(new Date()).map((x) => [x.type, x.value]));
+    const hh = p.hour === '24' ? '00' : p.hour;
+    return { date: `${p.year}-${p.month}-${p.day}`, min: +hh * 60 + +p.minute, secs: +hh * 3600 + +p.minute * 60 + +p.second, time: `${hh}:${p.minute}:${p.second}`, wk: p.weekday };
+  };
+  const marketOpen = () => { const t = twNow(); return !['Sat', 'Sun'].includes(t.wk) && t.min >= 9 * 60 && t.min < 13 * 60 + 35; };
 
   async function load() {
     const get = (f) => fetch(`data/${f}?t=${Date.now()}`).then((r) => (r.ok ? r.json() : null)).catch(() => null);
     const [today, tomorrow, hot, meta, volk] = await Promise.all(['today.json', 'tomorrow.json', 'hot.json', 'meta.json', 'volk.json'].map(get));
     Object.assign(state.data, { today, tomorrow, hot, meta, volk });
     if (meta?.lastCheck) $('#lastCheck').textContent = `最後檢查 ${meta.lastCheck.slice(11)}`;
+    if (!state.view) state.view = haveSnapToday() || !marketOpen() ? 'snap' : 'live';
     renderAll();
-    liveQuotes();
+    tick();
   }
 
   // ---------- 今日開盤 ----------
+  const haveSnapToday = () => state.data.today?.date === twNow().date || state.pageSnap?.date === twNow().date;
+  const snapSrc = () => {
+    const today = twNow().date;
+    if (state.data.today?.date === today) return state.data.today; // official record from the 09:15 job
+    if (state.pageSnap?.date === today) return state.pageSnap; // this page's own 09:15 capture
+    return state.data.today; // last trading day's
+  };
+  const src = () => (state.view === 'live' ? state.liveScan : snapSrc());
   function todayRows() {
-    const d = state.data.today;
+    const d = src();
     if (!d) return [];
     const { chg, vol, gapOnly, all } = state.f;
     return d.items.filter((x) => (all || (x.chg >= chg && x.vol >= vol)) && (!gapOnly || x.gap));
   }
   function renderToday() {
-    const d = state.data.today;
+    const d = src();
+    const isLive = state.view === 'live';
     const rows = todayRows();
+    $$('[data-view]').forEach((b) => b.classList.toggle('on', b.dataset.view === state.view));
+    $('#thChg').textContent = isLive ? '即時漲幅' : '15分漲幅';
+    $('#thCur').textContent = isLive ? '開盤跳空' : '現價漲幅';
+    $('#liveDot').innerHTML = marketOpen() ? `<span class="dot"></span>即時更新中${state.lastTick ? ` · ${state.lastTick}` : ''}` : '休市中';
+    $('#liveDot').classList.toggle('off', !marketOpen());
     $('#cntToday').textContent = rows.length;
     $('#sMatch').textContent = rows.length;
     $('#sGap').textContent = rows.filter((x) => x.gap).length;
     $('#sScanned').textContent = fmt(d?.scanned || 0);
-    if (d) {
-      const [, mm, dd] = d.date.split('-');
+    if (d && d.date) {
+      const [, mm, dd] = (d.date.includes('-') ? d.date : `${d.date.slice(0, 4)}-${d.date.slice(4, 6)}-${d.date.slice(6)}`).split('-');
       const [h, m] = (d.dataTime || d.scanTime).split(':').map(Number);
       $('#sTime').textContent = `${mm}/${dd} ${h < 12 ? '上午' : '下午'} ${h > 12 ? h - 12 : h}:${String(m).padStart(2, '0')}`;
     }
     $('#subChg').textContent = state.f.all ? d?.floor?.chg ?? 3 : state.f.chg;
     $('#subVol').textContent = fmt(state.f.all ? d?.floor?.vol ?? 1000 : state.f.vol);
-    const late = d && d.scanTime > '09:16:00';
+    const late = !isLive && d && d.scanTime > '09:16:00';
     $('#todayBody').innerHTML = rows.length ? rows.map((x) => {
       const live = state.live[x.code];
       const cur = live?.price ?? null;
@@ -63,11 +91,11 @@
       return `<tr>
         <td class="code">${esc(x.code)}</td><td>${esc(x.name)}</td>
         <td class="${cls(x.chg)}">${pct(x.chg)}</td>
-        <td class="${cls(live?.chg)}">${live?.chg != null && live.d === d.date.replace(/-/g, '') ? pct(live.chg) : '—'}</td>
+        ${isLive ? `<td class="${cls(x.gapPct)}">${pct(x.gapPct)}</td>` : `<td class="${cls(live?.chg)}">${live?.chg != null && live.d === d.date.replace(/-/g, '') ? pct(live.chg) : '—'}</td>`}
         <td>${fmt(x.vol)} 張</td>
         <td>${toLimit == null ? '—' : `${+toLimit.toFixed(2)}%`}</td>
         <td class="note">${esc(notes.join('；'))}</td></tr>`;
-    }).join('') : `<tr><td colspan="7" class="empty">${d ? '沒有符合條件的股票' : '尚無資料（每個交易日 09:15 掃描）'}</td></tr>`;
+    }).join('') : `<tr><td colspan="7" class="empty">${d ? '沒有符合條件的股票' : isLive ? (state.liveErr ? '即時掃描暫時無法取得，稍後自動重試' : '即時掃描中…') : '尚無今日快照（每個交易日 09:15 自動掃描）'}</td></tr>`;
     $$('#presets .btn').forEach((b) => b.classList.toggle('on', b.dataset.p === (state.f.all ? 'all' : `${state.f.chg},${state.f.vol}`)));
     $('#gapOnly').classList.toggle('on', state.f.gapOnly);
   }
@@ -156,22 +184,62 @@
 
   function renderAll() { renderToday(); renderTomorrow(); renderHot(); }
 
-  // ---------- live 現價 (via /api/quotes during market hours) ----------
+  // ---------- real-time updates ----------
   async function liveQuotes() {
-    const d = state.data.today;
+    const d = snapSrc();
     if (!d || !d.items.length) return;
     const codes = todayRows().slice(0, 150).map((x) => `${x.m}_${x.code}`);
     if (!codes.length) return;
     try {
       const j = await fetch(`/api/quotes?codes=${codes.join(',')}`).then((r) => r.json());
       Object.assign(state.live, j.quotes || {});
-      renderToday();
-    } catch { /* api unavailable (e.g. opened as static file) */ }
+    } catch { /* api unavailable */ }
   }
-  setInterval(() => {
-    const h = new Date().toLocaleString('en-US', { timeZone: 'Asia/Taipei', hour: 'numeric', hour12: false });
-    if (+h >= 9 && +h < 14 && !document.hidden) liveQuotes();
-  }, 60000);
+  async function liveScan() {
+    try {
+      const j = await fetch('/api/scan').then((r) => (r.ok ? r.json() : Promise.reject(r.status)));
+      if (j.items) { state.liveScan = j; state.liveErr = false; }
+    } catch { state.liveErr = true; }
+  }
+  // At 09:15:00 the page takes the snapshot itself from the live scanner, so the list shows up at 09:15 on the dot.
+  async function takePageSnap() {
+    const t = twNow();
+    if (state.snapping || ['Sat', 'Sun'].includes(t.wk)) return;
+    if (t.secs < 9 * 3600 + 15 * 60 || t.secs > 13 * 3600 + 30 * 60) return;
+    if (state.data.today?.date === t.date || state.pageSnap?.date === t.date) return;
+    state.snapping = true;
+    try {
+      const j = await fetch(`/api/scan?at=0915-${t.date}`).then((r) => (r.ok ? r.json() : Promise.reject(r.status)));
+      if (j.items && j.date === t.date.replace(/-/g, '')) {
+        state.pageSnap = { ...j, date: t.date, scanTime: j.dataTime || t.time, source: 'page' };
+        try { localStorage.setItem('pageSnap', JSON.stringify(state.pageSnap)); } catch { /* ignore */ }
+        state.view = 'snap';
+        renderToday();
+        liveQuotes().then(renderToday);
+      }
+    } catch { /* retry next second */ } finally { state.snapping = false; }
+  }
+  setInterval(() => { if (!document.hidden) takePageSnap(); }, 1000);
+
+  async function tick() {
+    if (state.view === 'live') await liveScan();
+    else if (marketOpen()) await liveQuotes();
+    state.lastTick = twNow().time;
+    renderToday();
+  }
+  // prices: every 15 s (snapshot view) / 20 s (live view) while the market is open
+  let n = 0;
+  setInterval(async () => {
+    if (document.hidden) return;
+    n++;
+    if (marketOpen() && (state.view === 'snap' ? n % 3 === 0 : n % 4 === 0)) tick();
+    // scan results (09:15 snapshot, 量增K, 收盤) — re-check every 60 s so new data shows up without a refresh
+    if (n % 12 === 0) {
+      const had = state.data.today?.date;
+      await load();
+      if (had !== twNow().date && haveSnapToday() && state.view === 'live') { state.view = 'snap'; renderToday(); }
+    }
+  }, 5000);
 
   // ---------- events ----------
   function setTab(t) {
@@ -188,7 +256,7 @@
     state.f.chg = parseFloat($('#fChg').value) || 0;
     state.f.vol = parseFloat($('#fVol').value) || 0;
     state.f.all = false;
-    renderToday(); liveQuotes();
+    renderToday(); tick();
   });
   $$('#presets .btn').forEach((b) => b.addEventListener('click', () => {
     if (b.dataset.p === 'all') state.f.all = true;
@@ -197,9 +265,10 @@
       Object.assign(state.f, { chg: c, vol: v, all: false });
       $('#fChg').value = c; $('#fVol').value = v;
     }
-    renderToday(); liveQuotes();
+    renderToday(); tick();
   }));
   $('#gapOnly').addEventListener('click', () => { state.f.gapOnly = !state.f.gapOnly; renderToday(); });
+  $$('[data-view]').forEach((b) => b.addEventListener('click', () => { state.view = b.dataset.view; renderToday(); tick(); }));
   $$('[data-sort]').forEach((b) => b.addEventListener('click', () => { state.sort = b.dataset.sort; renderTomorrow(); }));
   $$('[data-filter]').forEach((b) => b.addEventListener('click', () => { state.filter = b.dataset.filter; renderTomorrow(); }));
   $('#tmBody').addEventListener('click', (e) => {

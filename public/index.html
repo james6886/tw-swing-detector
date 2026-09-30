@@ -78,6 +78,11 @@ tr.detail td{background:var(--panel2);white-space:normal;padding:12px 14px}
 .hot-b ul{margin:6px 0 0;padding-left:18px}
 .empty{padding:28px;text-align:center;color:var(--muted)}
 footer{color:var(--muted);font-size:12px;margin-top:20px}
+.viewbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:12px;flex-wrap:wrap}
+.livedot{color:var(--up);font-size:12px;display:flex;align-items:center;gap:6px}
+.livedot.off{color:var(--muted)}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--up);animation:pulse 1.6s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(63,185,80,.6)}70%{box-shadow:0 0 0 7px rgba(63,185,80,0)}100%{box-shadow:0 0 0 0 rgba(63,185,80,0)}}
 .sec-title{font-weight:600;margin:20px 0 8px}
 @media (max-width:760px){
   .stats{grid-template-columns:repeat(2,1fr)}
@@ -106,6 +111,10 @@ footer{color:var(--muted);font-size:12px;margin-top:20px}
   </nav>
 
   <section id="view-today" hidden>
+    <div class="viewbar">
+      <div class="chips" style="margin:0"><button class="btn" data-view="snap">09:15 快照</button><button class="btn" data-view="live">即時掃描</button></div>
+      <div class="livedot" id="liveDot"></div>
+    </div>
     <div class="card filters">
       <div class="label" style="color:var(--text);font-weight:600">篩選條件</div>
       <div class="row">
@@ -129,7 +138,7 @@ footer{color:var(--muted);font-size:12px;margin-top:20px}
       <div class="card stat"><div class="label">資料來源</div><div class="v small">TWSE MIS 即時揭示（免費公開端點）</div></div>
     </div>
     <div class="card tbl"><div class="tbl-scroll"><table>
-      <thead><tr><th>代號</th><th>名稱</th><th>15分漲幅</th><th>現價漲幅</th><th>成交量</th><th>距漲停</th><th>備註</th></tr></thead>
+      <thead><tr><th>代號</th><th>名稱</th><th id="thChg">15分漲幅</th><th id="thCur">現價漲幅</th><th>成交量</th><th>距漲停</th><th>備註</th></tr></thead>
       <tbody id="todayBody"></tbody>
     </table></div></div>
   </section>

@@ -43,13 +43,15 @@ async function modeOpen() {
   const file = path.join(PUB, 'today.json');
   const prev = readJSON(file, null);
   if (!force && prev && prev.date === now.date) { console.log('today.json already recorded for', now.date); return; }
-  // wait for 09:15:05 if started early
-  const target = 9 * 3600 + 15 * 60 + 5;
-  if (!process.env.NO_WAIT && now.seconds < target && target - now.seconds < 3600) {
-    console.log(`waiting ${target - now.seconds}s for 09:15`);
-    await sleep((target - now.seconds) * 1000);
+  const h = await syncHistory(7); // do slow work before waiting
+  // wait for 09:15:00 sharp if started early (the first 15-min bar is 09:00–09:15)
+  const target = 9 * 3600 + 15 * 60;
+  const nowS = tw().seconds;
+  if (!process.env.NO_WAIT && nowS < target && target - nowS < 5400) {
+    console.log(`waiting ${target - nowS}s for 09:15`);
+    await sleep((target - nowS) * 1000);
+    while (!process.env.NO_WAIT && tw().seconds < target) await sleep(200); // land on 09:15:00, not before
   }
-  const h = await syncHistory(7);
   const uni = universe(h);
   const scanTime = tw().time;
   const quotes = await misQuotes(uni);
@@ -181,4 +183,9 @@ async function modePremarket() {
 const modes = { open: modeOpen, volk: modeVolK, close: modeClose, backfill: modeBackfill, premarket: modePremarket };
 if (!modes[mode]) { console.error('unknown mode', mode); process.exit(1); }
 await modes[mode]();
+// stock list for the live scanner on the website (/api/scan)
+{
+  const uni = universe(loadHistory());
+  if (uni.length > (Number(process.env.MIN_ROWS) || 500)) writeJSON(path.join(PUB, 'universe.json'), uni.map((s) => [s.code, s.m, s.name]));
+}
 touchMeta({ [`last_${mode}`]: `${tw().date} ${tw().hm}` });

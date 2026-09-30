@@ -66,13 +66,15 @@ export { num };
 
 // ---------- TWSE MIS realtime ----------
 // ex_ch keys look like "tse_2330.tw" / "otc_6207.tw". Returns map code -> quote.
-export async function misQuotes(list, batch = 60) {
+export async function misQuotes(list, batch = 60, parallel = 6) {
   const out = {};
-  for (let i = 0; i < list.length; i += batch) {
-    const chunk = list.slice(i, i + batch).map((s) => `${s.m}_${s.code}.tw`).join('|');
-    const url = `https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=${encodeURIComponent(chunk)}&json=1&delay=0&_=${Date.now()}`;
+  const chunks = [];
+  for (let i = 0; i < list.length; i += batch) chunks.push(list.slice(i, i + batch));
+  const one = async (chunk, i) => {
+    const ex = chunk.map((s) => `${s.m}_${s.code}.tw`).join('|');
+    const url = `https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=${encodeURIComponent(ex)}&json=1&delay=0&_=${Date.now()}`;
     try {
-      const j = await get(url, { headers: { Referer: 'https://mis.twse.com.tw/stock/index.jsp' } });
+      const j = await get(url, { headers: { Referer: 'https://mis.twse.com.tw/stock/index.jsp' }, tries: 2 });
       for (const r of j.msgArray || []) {
         const q = parseMis(r);
         if (q) out[q.code] = q;
@@ -80,7 +82,11 @@ export async function misQuotes(list, batch = 60) {
     } catch (e) {
       console.warn('MIS batch failed', i, e.message);
     }
-    await sleep(350);
+  };
+  // ~6 requests in flight: a full-market sweep takes a few seconds instead of ~15 s
+  for (let i = 0; i < chunks.length; i += parallel) {
+    await Promise.all(chunks.slice(i, i + parallel).map((c, k) => one(c, i + k)));
+    await sleep(150);
   }
   return out;
 }
