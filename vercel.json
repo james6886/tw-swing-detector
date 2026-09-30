@@ -1,7 +1,10 @@
 {
   "buildCommand": "",
   "outputDirectory": "public",
-  "git": { "deploymentEnabled": { "main": true } },
+  "functions": {
+    "api/scan.js": { "maxDuration": 30 },
+    "api/quotes.js": { "maxDuration": 15 }
+  },
   "headers": [
     { "source": "/data/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }] }
   ]

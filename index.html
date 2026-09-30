@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>台股強勢股偵測</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+<style>
+:root{
+  --bg:#0d1117;--panel:#161b22;--panel2:#0f141a;--line:#2a313b;--line2:#353d48;
+  --text:#e6edf3;--muted:#8b949e;--dim:#6e7681;--up:#3fb950;--down:#f85149;
+  --accent:#58a6ff;--accent-bg:rgba(56,139,253,.15);--warn:#d29922;--warn-bg:rgba(187,128,9,.18);
+  --green-bg:rgba(46,160,67,.15);--green-line:rgba(46,160,67,.55);
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:1000px;margin:0 auto;padding:20px 16px 60px}
+header{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+h1{font-size:22px;margin:0 0 4px}
+.sub{color:var(--muted);font-size:15px}
+.check{color:var(--muted);font-size:12px;margin:4px 0 0 8px}
+.btn{background:var(--panel);color:var(--text);border:1px solid var(--line2);border-radius:8px;padding:7px 14px;cursor:pointer;font:inherit;font-size:13px;white-space:nowrap}
+.btn:hover{border-color:#6e7681}
+.btn.on{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent);background:#161f2b}
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin:22px 0 16px;overflow-x:auto}
+.tab{padding:10px 12px;cursor:pointer;color:var(--muted);font-weight:600;font-size:15px;border-bottom:2px solid transparent;display:flex;align-items:center;gap:8px;white-space:nowrap}
+.tab.on{color:var(--text);border-color:var(--accent)}
+.pill{display:inline-block;min-width:22px;text-align:center;font-size:12px;padding:1px 7px;border-radius:999px;border:1px solid var(--line2);color:var(--text);font-weight:500}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}
+.label{color:var(--muted);font-size:13px}
+.filters .row{display:grid;grid-template-columns:1fr 1fr auto;gap:12px;align-items:end;margin-top:8px}
+input{width:100%;background:var(--panel2);border:1px solid var(--line2);color:var(--text);border-radius:8px;padding:10px 12px;font:inherit;font-size:15px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.stats{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin:16px 0}
+.stat .v{font-size:22px;font-weight:700;margin-top:6px}
+.stat .v.small{font-size:13px}
+table{width:100%;border-collapse:collapse}
+.tbl{padding:0;overflow:hidden}
+.tbl-scroll{overflow-x:auto}
+th{color:var(--muted);font-weight:500;font-size:12px;text-align:left;padding:12px 14px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:12px 14px;border-bottom:1px solid var(--line);white-space:nowrap}
+tr:last-child td{border-bottom:0}
+td.code{font-weight:700;font-size:15px}
+.num{text-align:right}
+.up{color:var(--up)}.down{color:var(--down)}.muted{color:var(--muted)}.warn{color:var(--warn)}
+.note{color:var(--warn);font-size:12px}
+.badge{display:inline-block;font-size:11px;padding:0 6px;border-radius:4px;margin-left:6px;vertical-align:1px}
+.b-val{background:var(--accent-bg);color:#79c0ff}
+.b-rank{background:var(--warn-bg);color:#e3b341}
+.b-volk{background:rgba(219,109,40,.2);color:#f0883e}
+.streak{display:inline-block;font-size:12px;padding:2px 10px;border-radius:999px;border:1px solid var(--line2);color:#c9d1d9}
+.streak.s2{border-color:var(--green-line);background:var(--green-bg);color:#7ee787}
+tr.big td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
+tr.big td.valcell{color:#79c0ff;font-weight:700}
+tr.divider td{color:var(--muted);font-size:12px;padding:8px 14px;background:var(--panel2)}
+tr.clickable{cursor:pointer}tr.clickable:hover td{background:#1b222c}
+tr.detail td{background:var(--panel2);white-space:normal;padding:12px 14px}
+.caret{color:var(--muted);font-size:10px;margin-left:8px}
+.ann{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin-bottom:10px;font-size:13px}
+.ann b{display:block;margin-bottom:4px}
+.ann .s{color:var(--muted);font-size:12px;margin:2px 0 6px}
+.news{list-style:none;margin:0;padding:0}
+.news li{margin:6px 0;font-size:13px}
+.score{display:inline-block;font-size:11px;padding:0 6px;border-radius:4px;background:#21262d;color:var(--muted);margin-right:8px;min-width:24px;text-align:center}
+.score.p{color:#7ee787}.score.n{color:#ffa198}
+.tag{display:inline-block;font-size:11px;padding:0 6px;border-radius:4px;background:var(--accent-bg);color:#79c0ff;margin-left:6px}
+.meta{color:var(--muted);font-size:12px;margin-left:6px}
+.desc{color:var(--muted);font-size:13px;margin:0 0 6px}
+.desc b{color:var(--text)}
+.hint{color:var(--warn);font-size:13px;margin:0 0 12px}
+.ctl{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:8px 0}
+.ctl .label{width:36px}
+.hot{margin-bottom:12px;padding:0}
+.hot-h{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr 20px;align-items:center;padding:14px 16px;cursor:pointer;gap:8px}
+.hot-h .k{color:var(--muted);font-size:12px}.hot-h .v{font-weight:700;font-size:15px}
+.hot-b{border-top:1px solid var(--line);padding:12px 16px;font-size:13px}
+.hot-b ul{margin:6px 0 0;padding-left:18px}
+.empty{padding:28px;text-align:center;color:var(--muted)}
+footer{color:var(--muted);font-size:12px;margin-top:20px}
+.viewbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:12px;flex-wrap:wrap}
+.livedot{color:var(--up);font-size:12px;display:flex;align-items:center;gap:6px}
+.livedot.off{color:var(--muted)}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--up);animation:pulse 1.6s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(63,185,80,.6)}70%{box-shadow:0 0 0 7px rgba(63,185,80,0)}100%{box-shadow:0 0 0 0 rgba(63,185,80,0)}}
+.sec-title{font-weight:600;margin:20px 0 8px}
+@media (max-width:760px){
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .filters .row{grid-template-columns:1fr 1fr}
+  .filters .row .btn{grid-column:span 2}
+  .hot-h{grid-template-columns:1fr 1fr;row-gap:8px}
+  h1{font-size:19px}.sub{font-size:13px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>台股強勢股偵測</h1>
+      <div class="sub">第一根 15 分 K：漲幅 ≥ <span id="subChg">7</span>%、量 ≥ <span id="subVol">7,000</span> 張；🚀 跳空＝今開 &gt; 昨收 5%</div>
+      <div class="check" id="lastCheck">最後檢查 —</div>
+    </div>
+    <button class="btn" id="refresh">重新整理</button>
+  </header>
+
+  <nav class="tabs">
+    <div class="tab" data-tab="today">今日開盤 <span class="pill" id="cntToday">0</span></div>
+    <div class="tab" data-tab="tomorrow">明日觀察 <span class="pill" id="cntTomorrow">0</span></div>
+    <div class="tab" data-tab="hot">熱門族群漲停 <span class="pill" id="cntHot">0</span></div>
+  </nav>
+
+  <section id="view-today" hidden>
+    <div class="viewbar">
+      <div class="chips" style="margin:0"><button class="btn" data-view="snap">09:15 快照</button><button class="btn" data-view="live">即時掃描</button></div>
+      <div class="livedot" id="liveDot"></div>
+    </div>
+    <div class="card filters">
+      <div class="label" style="color:var(--text);font-weight:600">篩選條件</div>
+      <div class="row">
+        <label><div class="label">漲幅至少（%）</div><input id="fChg" type="number" step="0.1" value="7"></label>
+        <label><div class="label">成交量至少（張）</div><input id="fVol" type="number" step="100" value="7000"></label>
+        <button class="btn" id="apply" style="padding:12px 16px">套用</button>
+      </div>
+      <div class="chips" id="presets">
+        <button class="btn" data-p="7,7000">7% / 7,000 張</button>
+        <button class="btn" data-p="5,5000">5% / 5,000 張</button>
+        <button class="btn" data-p="9,10000">9% / 10,000 張</button>
+        <button class="btn" data-p="all">全部候選</button>
+      </div>
+      <div class="chips"><button class="btn" id="gapOnly">🚀 只看跳空</button></div>
+    </div>
+    <div class="stats">
+      <div class="card stat"><div class="label">符合條件</div><div class="v" id="sMatch">0</div></div>
+      <div class="card stat"><div class="label">跳空命中</div><div class="v" id="sGap">0</div></div>
+      <div class="card stat"><div class="label">掃描檔數</div><div class="v" id="sScanned">0</div></div>
+      <div class="card stat"><div class="label">資料時間</div><div class="v" id="sTime">—</div></div>
+      <div class="card stat"><div class="label">資料來源</div><div class="v small">TWSE MIS 即時揭示（免費公開端點）</div></div>
+    </div>
+    <div class="card tbl"><div class="tbl-scroll"><table>
+      <thead><tr><th>代號</th><th>名稱</th><th id="thChg">15分漲幅</th><th id="thCur">現價漲幅</th><th>成交量</th><th>距漲停</th><th>備註</th></tr></thead>
+      <tbody id="todayBody"></tbody>
+    </table></div></div>
+  </section>
+
+  <section id="view-tomorrow" hidden>
+    <p class="desc" id="tmDesc"></p>
+    <p class="hint">量增K 每個交易日 13:00 掃描、13:30 補查；前一交易日漲幅 ≥ 9% 且今日量大於昨日，供尾盤參考</p>
+    <div class="ctl"><span class="label">排序</span>
+      <button class="btn" data-sort="big">10 億優先</button>
+      <button class="btn" data-sort="chg">漲幅</button>
+      <button class="btn" data-sort="vol">成交量</button>
+      <button class="btn" data-sort="value">成交值</button>
+      <button class="btn" data-sort="volk">量增K</button>
+    </div>
+    <div class="ctl"><span class="label">篩選</span>
+      <button class="btn" data-filter="all">全部</button>
+      <button class="btn" data-filter="second">只看明天第 2 根</button>
+      <button class="btn" data-filter="big">只看 ≥ 10 億</button>
+    </div>
+    <div class="card tbl" style="margin-top:12px"><div class="tbl-scroll"><table>
+      <thead><tr><th>代號</th><th>名稱</th><th>連續根數</th><th class="num">漲幅</th><th class="num">收盤</th><th class="num">成交量</th><th class="num">成交值</th></tr></thead>
+      <tbody id="tmBody"></tbody>
+    </table></div></div>
+    <div id="volkBox"></div>
+  </section>
+
+  <section id="view-hot" hidden>
+    <p class="desc" id="hotDesc"></p>
+    <div id="hotList"></div>
+  </section>
+
+  <footer>此頁只呈現技術面偵測結果，不是買賣建議，也不會自動下單。門檻放寬後仍受掃描時記錄的範圍限制。</footer>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
