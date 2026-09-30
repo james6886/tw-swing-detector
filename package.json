@@ -1,0 +1,13 @@
+{
+  "name": "tw-swing-detector",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "backfill": "node scripts/scan.mjs backfill 100",
+    "premarket": "node scripts/scan.mjs premarket",
+    "open": "node scripts/scan.mjs open",
+    "volk": "node scripts/scan.mjs volk",
+    "close": "node scripts/scan.mjs close"
+  }
+}
