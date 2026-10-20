@@ -1,41 +1,127 @@
 {
- "date": "2026-10-19",
- "scanTime": "22:38",
- "total9": 21,
+ "date": "2026-10-20",
+ "scanTime": "20:41",
+ "total9": 36,
  "items": [
   {
-   "code": "1815",
-   "name": "富喬",
-   "m": "otc",
-   "chg": 10,
-   "price": 154,
-   "value": 30138262000,
+   "code": "6467",
+   "name": "泰合",
+   "m": "tse",
+   "chg": 89.57,
+   "price": 200,
+   "value": 601600000,
    "news": [
     {
-     "title": "【今日盤後速報】富喬泰國新廠已動土，玻纖布與PCB材料股轉強，誰有營收支撐？",
-     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE41Ukhna3MyUjRROE9LOU96amNtcFdDY1E2LUFuTF9PRXZQd2g3VC13Q2JHZC1Zc0VzSElzZXdXVVhmdmh5cGZfd1JqaWJ0Z2hWMGJjSDF4N2FtSXRjenJtcmoxOV9PWjBoRGxBaldSVTBGbWk5dWFaUjR6TnR0UQ?oc=5",
-     "source": "CMoney投資網誌",
-     "pub": "2026-10-19T09:53:07.000Z",
-     "score": 0,
+     "title": "泰合掛牌上市 早盤大漲逾1倍 新藥 BEQIA 歐美藥證進入收成期",
+     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5kZDhNRFN5Vzk3M0cwd2tubGZxR0FGVkYzN2RMWHZjZFJqNUhxT0F4cmlBQ2pvMVQ0SE9OWlFlb2tCUndXNm5BX0VJTWlJb01N0gFWQVVfeXFMTjluekxqRUxTM1RBWUtzRVkzZ3h2NjIyYnhVWFBJS3AxLXBmWm5Ibi1zVkFTUDNKWWlGQnpQb1Eyc09MTlRhZUNvUmM5UXB2ek0tNVdITWc?oc=5",
+     "source": "UDN",
+     "pub": "2026-10-20T04:00:19.000Z",
+     "score": 1,
      "themes": [
-      "PCB"
+      "新藥"
      ]
     },
     {
-     "title": "【今日盤後速報】富喬泰國新廠動工！玻纖布與PCB材料同步轉強，誰有營收支撐？",
-     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9pUnc5VG93T1gtUFU3WmFWYVZHMzhSWUNsSVNGZWpreDM5VlF1b3UwUC1mcGF4SUJtZlpEdkNSUk9WVjltNzl2QXRTczBBdTBTR1lhaWs1cXIzbi1PLUh4NVJaNnVLNHdnYko0WXBUcXJXV0o5VjRzR2thenRRdw?oc=5",
-     "source": "CMoney投資網誌",
-     "pub": "2026-10-19T09:44:02.000Z",
-     "score": 0,
+     "title": "個股：泰合今掛牌飆漲逾倍，BEQIA取證在即，長效新藥接棒第二成長曲線成形",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYXBBdUxQRlNfZzJtRXlraUR4X0Rnbjh0MTlRR1p4Y2tUY0ZQT18wRU1PbXMwa09oQnpvLTc2S1hGRGpTcElxXzVOeXpJOWNmeVctb2dMdnNfR0VrZS1xTXY4S0Z6eTE2U1JoMm1leFllaHQ4TG9KSHRoRmxjZEVZNEdWblNLQ3gx?oc=5",
+     "source": "富聯網",
+     "pub": "2026-10-20T03:00:00.000Z",
+     "score": 2,
      "themes": [
-      "PCB"
+      "新藥"
      ]
     },
     {
-     "title": "PCB繼續漲！「這檔」連拔4根攜富喬等3檔漲停 建榮、德宏都勁揚4%",
-     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE02dFZiMTV6T2NNeXZUWUJKd2xlcmRmeWYwdmpSb0lqWmVKbHlZQzJaTDZtV0dscFEweEhKb1VEcTVMeVZHWU5PbklBdw?oc=5",
+     "title": "讓病人吞藥更容易！生技新兵泰合掛牌 股價飆逾一倍",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkdVFmamZMMGpiV3IyQ0pJQXczQXdfbU5OOThSMTNkSEN4OTYzRndQRnNmQjVhYTBqTFRqTTdueDBFQmJETXJwSVRLb3M1clRPY1NQbVVB0gFWQVVfeXFMUGR1UWZqZkwwamJXcjJDSklBdzNBd19tTk45OFIxM2RIQ3g5NjNGd1BGc2ZCNWFhMGpMVGpNN254MEVCYkRNcnBJVEtvczVyVE9jU1BtVUE?oc=5",
+     "source": "UDN",
+     "pub": "2026-10-20T02:55:37.000Z",
+     "score": 1,
+     "themes": [
+      "生技"
+     ]
+    },
+    {
+     "title": "生技醫療類股迎資本熱潮！新藥三期解盲達標與掛牌報喜，泰合首日大漲-財經焦點情報站",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdHJaTTVUVHZSWVpXZE1MZ001UFhKMkJkQzNkR05xTGZ3RVF0MThxYmktcXB0RndqR0JCODFLMTJZWjJaWEtqUGdhNG9qZjFQUF8yU0dkNzhHWGZEUW1LSUJHZGl6b2pnNXdnQzdRZ0JUTS1XX1Q2ZmpKVEpEUzQwZ1lR?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-20T02:39:21.000Z",
+     "score": 2,
+     "themes": [
+      "生技",
+      "新藥"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "3625",
+   "name": "西勝",
+   "m": "otc",
+   "chg": 10,
+   "price": 22,
+   "value": 11352000,
+   "news": [
+    {
+     "title": "【10/20 產業即時新聞】電子中游NB與手機零組件族群走高，西勝亮燈漲停、散熱指標奇鋐穩步表態",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONXdRaVQwWlBRdGVqYkw3V0tRbkYxdU95Vlh6VXFOVk54VXE1Qjc3UWc1WE5rUGdkMlJBU1V0a3dXWEkzdzlSVnM1ZDRuV1pyM2dwdE96bm8yZ1N6SHdPZ0RYUGMwRUF0VEQ4SnZLbWdYaXBCem9YeTNUb19hT0hxTU9mYnhMU25OcXpUempB?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-20T04:10:31.000Z",
+     "score": 2,
+     "themes": [
+      "散熱",
+      "與手機零組件"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "6269",
+   "name": "台郡",
+   "m": "tse",
+   "chg": 9.96,
+   "price": 88.3,
+   "value": 2774121100,
+   "news": [
+    {
+     "title": "今日漲停股｜PCB與光學元件接棒逆勢領漲，台郡、今國光、力致攻亮燈1020｜豐雲學堂2026 年 10 月",
+     "link": "https://news.google.com/rss/articles/CBMiygNBVV95cUxPQ1VrRDQ5UWVUNG1KM0RpY3VjOXozRU5LMnl1cmwyS3h6YzU5M3J1b2FfZW80VW1XTTJEcjVBNnZnajVKT2FHNXRteWh0TmFJdV9xNDl1cXdmbUE4RGM1bHhvWHBxMEdVLVBpd3JhYnJZRzZ5dHdiaEpfb2tERndPdklBUElHdUhIYWtyNUxVTHM2a1FqNU5laTRrTHlGcTdab1V1bXJObDd4V0Q2NWZIT3ZQc2VjbmhRRnBFczRpNW1XcmM1OFNsZ2hNOVFzakxrZUxzNThqc3ZiMnkzNFV3VlJjZlBSTGVPUVFlWk0yb19YUjQxM0hGRGNqb0doWGVESFVQYkVlOFhhWmRLZXlOUG9tN0JkaUNSZVp6OWx1eDFlWThJRF9zVjVmMzhKRGR4NVV6dmxLVnpPN3REeFNWbUw4Rl92N3BLWWJCQUpYOEtMTUdYS1FVQVZDT1FZOGFLbWRHY3VueTlqdTVRYzdqbUJVbmVFUkhUc2R6aFZsZUtMdWtON0psRXhxalFVa19xREk2R1kxOW81R0Y0OUVORFM2eGxtR0xRMnlpb25IcGt2bzdtelFncHVFWE5oRHpqN1M3WEZ4ZkZJdw?oc=5",
+     "source": "永豐金證券",
+     "pub": "2026-10-20T09:56:15.000Z",
+     "score": 3,
+     "themes": [
+      "PCB",
+      "光學"
+     ]
+    },
+    {
+     "title": "PCB族群紅綠互見！「這玻纖布廠」攻漲停一字鎖、律勝連飆5根台郡跟上攻頂、載板三雄卻遭重挫",
+     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1aWktBbWtuSFVFbk9zSjE5aWNqZU50SXF2cmhrWlpRX1oxOGFjWnpfaWY3cndSdFdKUnVWa1hvaklSeDVDWlRid0hDOA?oc=5",
      "source": "FTNN 新聞網",
-     "pub": "2026-10-19T06:41:00.000Z",
+     "pub": "2026-10-20T08:35:00.000Z",
+     "score": 2,
+     "themes": [
+      "PCB",
+      "載板"
+     ]
+    },
+    {
+     "title": "AI伺服器推升PCB高階製程需求，載板面積看增14倍帶動台郡漲停！-財經焦點情報站",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbUNQLWg1MDJ6Yk10cUtiTm9qREF4d1Exdy1zMnVNc0FDMmhIdmg2aThYTkk4ZEVBdjRSUnhIb3ZzTXBrVmJMcGRVbXVha2dJNEs1N21oYTk3cU1tWERJNUdWVFQzVS1oaEJDR2EyWERvcWVLSGVsNGo5NzBGbFl2bXZ3?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-20T03:39:17.000Z",
+     "score": 1,
+     "themes": [
+      "AI伺服器",
+      "伺服器",
+      "PCB"
+     ]
+    },
+    {
+     "title": "PCB新材料3雄強強滾！台郡、台虹亮燈　亞電漲逾7%",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9fTUZrN2NRdjFQcTJ3UVgwajdZS01kZ2hwc3hXX2FrX1lqeE1OZ2lMSVctY3lvNURpQ3NFT0tjenFZY2ZkMW1HZkdoc1Y4SUtheFHSAVBBVV95cUxOeXZ4RXdsdUtCYkdzN2ZxYUFpeUdkZGt2dG5vQUJFQV94d3Nqc1FVRGgtMzhhN2ExdzU4ODNxd1hKRnhTb1FEc2Y2UUZnbG9WYw?oc=5",
+     "source": "ETtoday財經雲",
+     "pub": "2026-10-20T02:30:00.000Z",
      "score": 1,
      "themes": [
       "PCB"
@@ -44,21 +130,21 @@
    ]
   },
   {
-   "code": "6708",
-   "name": "天擎",
-   "m": "otc",
-   "chg": 10,
-   "price": 60.5,
-   "value": 22869000,
+   "code": "6994",
+   "name": "富威電力",
+   "m": "tse",
+   "chg": 9.96,
+   "price": 27.05,
+   "value": 20639150,
    "news": [
     {
-     "title": "6708 天擎- 從技術媒合到無形資產融資桃園打造「專利生態系」助在地企業升級- 股市爆料同學會",
-     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE84UEdNS28zMEstRVNUZXlZUVJFeDZ3amdHSXhLVEtJS2dWT1VVamVkVFNSNVdrd2h4N25FZEJzd3NIY3N0SHhjMmtQN09sSFduUnllQ1BPS2Q?oc=5",
-     "source": "CMoney",
-     "pub": "2026-10-19T08:59:39.000Z",
+     "title": "【11:11 即時新聞】富威電力(6994)盤中上漲逾9%，市場聚焦風電履約爭議後續",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYm9jc0hmQWJ1OTdaN2VNdndzdUcxaTRmUDhMZjlWUUlBTmNKUEFiZVBaLUJMOGMxS3JSNmp5OHo4VTdXaGVqQVVQNWcxY2JfbS1aVWJwZHg4Y0Q1WVVKX2h4Nm8xcGFLNHV2Y0NTMHp5WU1MV3lFcllVZ0N2b2ItTlNQaE1vM3Rwb2I4NVZ3?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-20T03:11:55.000Z",
      "score": 0,
      "themes": [
-      "資產"
+      "風電"
      ]
     }
    ]
@@ -67,26 +153,16 @@
    "code": "3354",
    "name": "律勝",
    "m": "otc",
-   "chg": 9.93,
-   "price": 45.95,
-   "value": 173553150.00000003,
+   "chg": 9.9,
+   "price": 50.5,
+   "value": 1203011000,
    "news": [
     {
-     "title": "PCB走勢兩極！「這檔」連8日強漲78%盤中暴跌9.14% 富喬、鉅橡止跌翻紅飆漲停、律勝連拉4根",
-     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE44cjItVENzVThGa2k4WGppdjhBSTM0Z1l4Mm5QSVFTZ1piOW5WZkhIQnVxdUd1TFdOVWdDVUptRWw0c0xxUXFvVEJlZw?oc=5",
-     "source": "FTNN 新聞網",
-     "pub": "2026-10-19T02:15:00.000Z",
-     "score": 2,
-     "themes": [
-      "PCB"
-     ]
-    },
-    {
-     "title": "【09:01 即時新聞】律勝(3354)亮燈漲停，CCL族群再度成為盤面焦點",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNG5aeDVQZzloLTVNUWZ2dVIzWGRLWlc3SEhMMFpydnIxYThSQlVhaFVVU3RtSld3dERITU1pTDNncTNMUm0wcGJKN3huNVRJVWRqMzdZNEhkdHU1QWNOejBRbWx3TWFCeWZUcnN5dEY0RUZHdVJSTjFSM3VCVm84QWFtUTF2dzI0bTVnU2d3?oc=5",
+     "title": "【10:40 即時新聞】律勝(3354) 盤中勁揚站近五字頭，CCL族群買氣延續",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNS1RVN253TkF1WXBtaU9UekVjUVRZenllN2M5a2JxeThkQU5ZUUYxc3JPZjI3UWVYd0J6QUx5U05pRWRONnM3dnZ2eHVVei1uWERTOG1fYXBna0w3MVJYaXlZSDNSV082TWRIQmhpNlZKelRlcTRtOXlqODVYTTQ3UTNZbE56OFh0U3NwaTNn?oc=5",
      "source": "CMoney投資網誌",
-     "pub": "2026-10-19T01:01:15.000Z",
-     "score": 2,
+     "pub": "2026-10-20T02:41:04.000Z",
+     "score": 0,
      "themes": [
       "CCL"
      ]
@@ -94,93 +170,54 @@
    ]
   },
   {
-   "code": "4542",
-   "name": "科嶠",
-   "m": "otc",
-   "chg": 9.92,
-   "price": 393.5,
-   "value": 1634205500,
-   "news": [
-    {
-     "title": "今日漲停股｜台股開低收斂跌幅，電子零組件與PCB族群逆勢亮眼，富喬、凱崴、科嶠強勢漲停 1019",
-     "link": "https://news.google.com/rss/articles/CBMitwRBVV95cUxPRi10TWdCd25UMmxReUQyM3AxQ1RoTTFicUdNdnRVLVVMcHowY3F0b2d2OGdCX0pQckNFSzRSUGZLNkZ0ZXZRNzJ5WWZROE5ObUNBY2hQejNMU2pzUGxIMWhoc0RRU05tY0EtdHYzQl9qZDMyR0VkT0RHZ095aXdEZWFzQUxrUVhmekhYa0hwZGNZa2M3ZlNxUENHenNSbU9KN0FnUUkxekN6bHNYa1VwVGJZcE5OZHkySEFoVF9qdDNHbnVhX2xzQUZkVFNXOFNsVWZJVU42YWtYRlZNSEkzVUtLRVZaOXJTbjJnRnlEZERzRUVCUHBjemlvLU0zaGxZTGhtWERtTTdadVptYmdYeS01eTZJczllNDJfM0NBdnF2eTIxWjJ4T0dQb09lOC1tVHZDUGEwMnIzOWF0bWF3cmhaSG5iR1ZRV25tejFFbFRWcjhsb1FNMzFnTXN2VUdGel8zb3BNS08yMEcyRFdqY1lXNnNVQWh5Q0pFN29zdmlFaTVCamJ2N05KZFlaMkd1MGJnU3lNR095NVd1SmxJb2twTGFYNGNXV1VlTi1QYm5aMGRrMGR6Z1ZlMGE5SG8wdmlMRXZiME9SOHBkYm5GNElqWERXdFdma0E3YWhVUzJIR1BFTWRha1BxeVZvUW54NW44cGNSWmJEckYxczZyUUhTd245QTNBUHBJTXpEWU9ydHdrdkY1TnBaOG43WVlhMzBsU1lXdTVid1NUQ21BZ3VYOThHZmM?oc=5",
-     "source": "永豐金證券",
-     "pub": "2026-10-19T13:33:44.000Z",
-     "score": 2,
-     "themes": [
-      "PCB",
-      "組件與PCB"
-     ]
-    }
-   ]
-  },
-  {
-   "code": "3287",
-   "name": "廣寰科",
+   "code": "3483",
+   "name": "力致",
    "m": "otc",
    "chg": 9.9,
-   "price": 65.5,
-   "value": 147768000,
+   "price": 95.5,
+   "value": 354591500,
    "news": [
     {
-     "title": "【10:42 即時新聞】廣寰科(3287)盤中續強，電競配備族群買盤延續",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYnhUb0xhcDFCVFhhMFYzbjI2a2xXaHpUdU05Mzc2bExHbG9Cb3RrT1FDVVRSQ2RScXh4Mkc0T1M3S25MZDRYV3VMbkJsWm1KZFY1azlNZk5DNVV1SE1Cb3RycjlxTjRaLVBRRkpvNDhjaFV4RmhSVV9pWkxfM05sRVNvWkZfNnA1TS1DeGF3?oc=5",
-     "source": "CMoney投資網誌",
-     "pub": "2026-10-19T02:43:44.000Z",
-     "score": 0,
+     "title": "今日漲停股｜PCB與光學元件接棒逆勢領漲，台郡、今國光、力致攻亮燈1020｜豐雲學堂2026 年 10 月",
+     "link": "https://news.google.com/rss/articles/CBMiygNBVV95cUxPQ1VrRDQ5UWVUNG1KM0RpY3VjOXozRU5LMnl1cmwyS3h6YzU5M3J1b2FfZW80VW1XTTJEcjVBNnZnajVKT2FHNXRteWh0TmFJdV9xNDl1cXdmbUE4RGM1bHhvWHBxMEdVLVBpd3JhYnJZRzZ5dHdiaEpfb2tERndPdklBUElHdUhIYWtyNUxVTHM2a1FqNU5laTRrTHlGcTdab1V1bXJObDd4V0Q2NWZIT3ZQc2VjbmhRRnBFczRpNW1XcmM1OFNsZ2hNOVFzakxrZUxzNThqc3ZiMnkzNFV3VlJjZlBSTGVPUVFlWk0yb19YUjQxM0hGRGNqb0doWGVESFVQYkVlOFhhWmRLZXlOUG9tN0JkaUNSZVp6OWx1eDFlWThJRF9zVjVmMzhKRGR4NVV6dmxLVnpPN3REeFNWbUw4Rl92N3BLWWJCQUpYOEtMTUdYS1FVQVZDT1FZOGFLbWRHY3VueTlqdTVRYzdqbUJVbmVFUkhUc2R6aFZsZUtMdWtON0psRXhxalFVa19xREk2R1kxOW81R0Y0OUVORFM2eGxtR0xRMnlpb25IcGt2bzdtelFncHVFWE5oRHpqN1M3WEZ4ZkZJdw?oc=5",
+     "source": "永豐金證券",
+     "pub": "2026-10-20T09:56:15.000Z",
+     "score": 3,
      "themes": [
-      "電競配備"
-     ]
-    }
-   ]
-  },
-  {
-   "code": "6418",
-   "name": "詠昇",
-   "m": "otc",
-   "chg": 9.89,
-   "price": 40,
-   "value": 11680000,
-   "news": [
-    {
-     "title": "個股：臺銀10億元無人機採購案開標，詠昇(6418)成為共同供應契約得標人",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTF81RUJ2ZTNLcmtTcFdWeGZWa2Y5clhYU2pPQWtyN0czRHBkWDBCaXpYUFZNSWJIR0cyNXlIS1RuQW9OZFFPOHFSSE5pMGRNeFhhQzktLUpmMXVyNk5MZW9jYmxpRmw1dXdxRTNPUFlPTnVQeG44SFVtT1IxYnY1VzhnOU8zUG5w?oc=5",
-     "source": "富聯網",
-     "pub": "2026-10-18T23:03:00.000Z",
-     "score": 0,
-     "themes": [
-      "無人機"
-     ]
-    }
-   ]
-  },
-  {
-   "code": "8074",
-   "name": "鉅橡",
-   "m": "otc",
-   "chg": 9.89,
-   "price": 61.1,
-   "value": 150000500,
-   "news": [
-    {
-     "title": "PCB走勢兩極！「這檔」連8日強漲78%盤中暴跌9.14% 富喬、鉅橡止跌翻紅飆漲停、律勝連拉4根",
-     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE44cjItVENzVThGa2k4WGppdjhBSTM0Z1l4Mm5QSVFTZ1piOW5WZkhIQnVxdUd1TFdOVWdDVUptRWw0c0xxUXFvVEJlZw?oc=5",
-     "source": "FTNN 新聞網",
-     "pub": "2026-10-19T02:15:00.000Z",
-     "score": 2,
-     "themes": [
-      "PCB"
+      "PCB",
+      "光學"
      ]
     },
     {
-     "title": "【09:20 即時新聞】鉅橡(8074)盤中走強，AI PCB供應鏈買盤延續",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaVJfY1FfZ2lxMTFLTlY0SnNsYlZObHh6RGVNMWdORC1MblBVNVVxQURhTlRkQUxqUXdISTFIMHh3cjVYTDNzXzhZQjhYTkZfbkd5d0VUYkRZYVFfTENDQ3p0dU5mSmNQVVVFNUsyeURkU1kxbnpaZ2hkeWFNOG1WaWVHeE85RUswc0hGX21R?oc=5",
+     "title": "【最新消息】力致漲停點火，「7檔散熱零組件」部分個股逆勢走強！",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB5dEJwMXktNWw3M2s0bENrUmhxRkNCQ1BTXzdxN1Q4TXdjMVNWbXd1a1QzVHo5Z3FCbVVqaU9EcjE3a1BXTm1Od2t1VmZJOWN2bjRjU0ZXN0lfZ0x4bU0xVU04c1RjNF9KSU5sb0JOa29IZHc4cVRyWGtfMnY0Zw?oc=5",
      "source": "CMoney投資網誌",
-     "pub": "2026-10-19T01:21:03.000Z",
-     "score": 0,
+     "pub": "2026-10-20T07:15:12.000Z",
+     "score": 1,
      "themes": [
-      "PCB",
-      "AIPC"
+      "散熱"
+     ]
+    },
+    {
+     "title": "【10/20 產業即時新聞】散熱模組族群漲逾2%亮燈強彈，力致強攻漲停帶動AI伺服器水冷商機",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTUx2SFF2SHAtYk1sTFRWa0VaSTlNVmt0Mk5uTDJzY0lWMjZJQUpaYmpzajlTcmxmU01ka3dpNU1YbmJYYl9ja2JaNzZaQ191bzBPa1lRX3d1eDNuSnJud3dmT1hPVXl5Uk9BZVg1MV93OThrV191dHR3WklzWXh2YmIyX3BwRnd2aHlSVTdB?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-20T04:10:40.000Z",
+     "score": 3,
+     "themes": [
+      "AI伺服器",
+      "伺服器",
+      "散熱"
+     ]
+    },
+    {
+     "title": "【09:35 即時新聞】力致(3483)亮燈漲停，散熱題材買盤點火",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWk9WTnRkVy01Rk9Pd0ZnbndBVFQ0R2JnTmJWUGRUSjVpamhWM0pBSmR5dWJCcm5feTBkNk5nWjNIZnRYMFRmaDZoNm9xZTE5SmczcDRKNUhseHJ5bG9BeThuLWstUnVycnV0T0h5djJjVEJ1bXowMTJxQlViRFZKZGQzaDRJQzZwdlNweDJB?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-20T01:36:03.000Z",
+     "score": 2,
+     "themes": [
+      "散熱"
      ]
     }
    ]
@@ -189,15 +226,150 @@
    "code": "4960",
    "name": "誠美材",
    "m": "tse",
-   "chg": 9.88,
-   "price": 27.8,
-   "value": 529951400,
+   "chg": 9.89,
+   "price": 30.55,
+   "value": 1362682750,
    "news": [
     {
-     "title": "光電股綠中帶紅！「這光學廠」重摔至跌停、玉晶光跌3.69% 誠美材逆風亮紅燈、冠西電噴近7%",
-     "link": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxQLTY3ZUdERjVzelF6NlhvR09nQjJGbDNqTk1LMHdxQVFmVkJvdjA5NUEyZURuUEJkVUhjZThDMm9GcDFtcWUzYVo4VGU3T1VyOC1Udi1KcHBjOW9XY0VCTEFfc2M1OWFfMk5jenhqQjdnWGNDUGJ0QUZDRDV6MUFOYVZYU2tnbWRLM1dsajdIalloQXBqUzZoRWVjZmIwQVNERXowRUhRZVloeHR2a2EzOEl4b2FOOGVFVEgyWDRLcWFabGV2ZXRFVjMxMlFJakViY2lFT2k3aV9lZ2NYN21jSTgyc25ZcXVJQ2dwR2lobWpWTm41UU5UWVJpSGdSWkNsWUVuQ3lNd3p0cTU5ek02S1dIVnotSW42U3RVTERHRVh1bG9mOTRWRnAyQURSZFZhamlDLVZScEVzdXdSaU9ycUdQd0NsWWhOSFo0bWN4QnI4aGlV?oc=5",
-     "source": "Yahoo股市",
-     "pub": "2026-10-19T08:20:00.000Z",
+     "title": "偏光片、資產活化利多加持！買盤點火 誠美材今飆漲停",
+     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBrR1hPb3p1VER0XzEwTHY4U3ZsbjhQa3JXRWJHbms5RWg2ckJsdV9SbFVGR2tmek96dEJ0Njd0ZndYazZONjlGUjBtQ1ExNEE?oc=5",
+     "source": "TVBS新聞網",
+     "pub": "2026-10-20T03:03:00.000Z",
+     "score": 3,
+     "themes": [
+      "資產"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "5475",
+   "name": "德宏",
+   "m": "otc",
+   "chg": 9.86,
+   "price": 228.5,
+   "value": 3018028000,
+   "news": [
+    {
+     "title": "PCB紅通通！「這檔」連6漲58%攜德宏、台虹等4檔漲停 建榮飆8%、臻鼎攻4%",
+     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE50S1J1NDJBUTR5a21yMWc2MURvVUZVcEN6R2FNNXVnZUI5UUQ5ODBPa25WdkFBOHBPSXZHQ00yOGJZTDF2NHE0cEMtSQ?oc=5",
+     "source": "FTNN 新聞網",
+     "pub": "2026-10-20T03:00:00.000Z",
+     "score": 3,
+     "themes": [
+      "PCB"
+     ]
+    },
+    {
+     "title": "【09:42 即時新聞】德宏(5475)亮燈漲停，玻纖布族群續強成盤中焦點",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPY1gzeG1EdU81VjZJZEw2MHBwdlpyRTRId3V1SWo4SUxUXzlYV3dBSmJ0eWx1Z1A1WF82SkpoeU5QZmkyWWFyX3FlZTRCOVpzdkdHYmdUeXl2Z3NlSnZkdDExR0ZGSUdjZmdMM0xfdFZLMV8wZXdPQzlqM0lzUlg4elFuSmd0S0RJLXJTVlFR?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-20T01:42:52.000Z",
+     "score": 2,
+     "themes": [
+      "玻纖布"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "3441",
+   "name": "聯一光",
+   "m": "otc",
+   "chg": 9.84,
+   "price": 268,
+   "value": 2195456000,
+   "news": [
+    {
+     "title": "今國光營收創高鎖漲停！聯一光出關秒亮燈 CPO、AR點燃光學行情",
+     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBPckNtTnZ1M0NncWx3SWYtUFlwaEVHS19ER3A4R20tSWloZDVvYlVKZDQxdDZVN1o4TVE3RDh1Ry1tQjFuTTU2QnlXWXk?oc=5",
+     "source": "聚財網",
+     "pub": "2026-10-20T09:50:47.000Z",
+     "score": 3,
+     "themes": [
+      "CPO",
+      "光學"
+     ]
+    },
+    {
+     "title": "【09:18 即時新聞】聯一光(3441) 亮燈漲停，短線買盤急拉光學族群",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTS1rSmdUQ29xdi0xWTVtQVJhWkxsaUJjTGNhUDNOMHcycGtTQV9pSDFhLUZrb1FXcHpzWGdpdC03MlJPZ1Bjenh3NWFmM1ozM2pOMHEwdnhsNDk5aDJYWjQ5cTZfTVp4U2JzUW1fRXlvdXRWNHVyM1JLZXNSclBqM1R3TGtUUldmb1A5VnZB?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-20T01:19:01.000Z",
+     "score": 2,
+     "themes": [
+      "光學",
+      "買盤急拉光學"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "6209",
+   "name": "今國光",
+   "m": "tse",
+   "chg": 9.8,
+   "price": 112,
+   "value": 3453968000,
+   "news": [
+    {
+     "title": "今日漲停股｜PCB與光學元件接棒逆勢領漲，台郡、今國光、力致攻亮燈1020｜豐雲學堂2026 年 10 月",
+     "link": "https://news.google.com/rss/articles/CBMiygNBVV95cUxPQ1VrRDQ5UWVUNG1KM0RpY3VjOXozRU5LMnl1cmwyS3h6YzU5M3J1b2FfZW80VW1XTTJEcjVBNnZnajVKT2FHNXRteWh0TmFJdV9xNDl1cXdmbUE4RGM1bHhvWHBxMEdVLVBpd3JhYnJZRzZ5dHdiaEpfb2tERndPdklBUElHdUhIYWtyNUxVTHM2a1FqNU5laTRrTHlGcTdab1V1bXJObDd4V0Q2NWZIT3ZQc2VjbmhRRnBFczRpNW1XcmM1OFNsZ2hNOVFzakxrZUxzNThqc3ZiMnkzNFV3VlJjZlBSTGVPUVFlWk0yb19YUjQxM0hGRGNqb0doWGVESFVQYkVlOFhhWmRLZXlOUG9tN0JkaUNSZVp6OWx1eDFlWThJRF9zVjVmMzhKRGR4NVV6dmxLVnpPN3REeFNWbUw4Rl92N3BLWWJCQUpYOEtMTUdYS1FVQVZDT1FZOGFLbWRHY3VueTlqdTVRYzdqbUJVbmVFUkhUc2R6aFZsZUtMdWtON0psRXhxalFVa19xREk2R1kxOW81R0Y0OUVORFM2eGxtR0xRMnlpb25IcGt2bzdtelFncHVFWE5oRHpqN1M3WEZ4ZkZJdw?oc=5",
+     "source": "永豐金證券",
+     "pub": "2026-10-20T09:56:15.000Z",
+     "score": 3,
+     "themes": [
+      "PCB",
+      "光學"
+     ]
+    },
+    {
+     "title": "今國光營收創高鎖漲停！聯一光出關秒亮燈 CPO、AR點燃光學行情",
+     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBPckNtTnZ1M0NncWx3SWYtUFlwaEVHS19ER3A4R20tSWloZDVvYlVKZDQxdDZVN1o4TVE3RDh1Ry1tQjFuTTU2QnlXWXk?oc=5",
+     "source": "聚財網",
+     "pub": "2026-10-20T09:50:47.000Z",
+     "score": 3,
+     "themes": [
+      "CPO",
+      "光學"
+     ]
+    },
+    {
+     "title": "光學股昨天跌到地下室、今天搭火箭！今國光、聯一光雙漲停 大立光卻翻黑",
+     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1tWldsV3RWeUh5ZmVNT0YyZkRtcmMxd0ZmU3FHRmlOOS1hX1hLd2lVemJPaGQwNXl5Nzk2MGhORENpUGt5clJrRGFoN1o?oc=5",
+     "source": "聚財網",
+     "pub": "2026-10-20T03:35:51.000Z",
+     "score": 1,
+     "themes": [
+      "光學"
+     ]
+    },
+    {
+     "title": "光學股「順」起來！2檔挾CPO題材雙亮燈　今國光刷天價",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE53VXVrT3JkRnd3UEQ3dXFsNkRPZkhvS1VlcUlyYlNtMGJ5X0lxRHFET0d1WGd3al83RjJWdURCTzZqWkJPeEM5ZG1fc1h4SHFxNFHSAVBBVV95cUxPZXlDdDh6N0lYc0ExUTJUMEY5QmdBcU5aWDBWN2RJRVE2dnY0bTN6TlpnbU5xZUV0ZUFrV2phdnU2WEozRzBMU1ZKOW5CR3ZZVw?oc=5",
+     "source": "ETtoday財經雲",
+     "pub": "2026-10-20T03:20:00.000Z",
+     "score": 1,
+     "themes": [
+      "CPO",
+      "光學"
+     ]
+    },
+    {
+     "title": "光學元件夯！今國光9月營收創新高 強攻漲停、1.9萬張等買",
+     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9iNEpkZEEwanNHOFhFQTF1LVo5RVQ3eVUwVlh1ZGFKVTFteWhXd29pczhYY01lUnhzS25fcUVxLVgwZTgwQV8ySmxhQ3JwSms?oc=5",
+     "source": "TVBS",
+     "pub": "2026-10-20T02:55:00.000Z",
+     "score": 3,
+     "themes": [
+      "光學"
+     ]
+    },
+    {
+     "title": "光學元件全面沸騰！「這檔」 處置期滿秒鎖漲停今國光2.1萬張買單爭進場、佳凌、歐特明強漲逾6%",
+     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE83YTFRRVppRkhDWGZxUl80WlppQVRsbk9ZTk5RMWs1VGFYTGVpeGh2aVN4OGJxei15STJpN25KSUM3YUhlNDhnd3hWUQ?oc=5",
+     "source": "FTNN 新聞網",
+     "pub": "2026-10-20T02:20:00.000Z",
      "score": 0,
      "themes": [
       "光學"
@@ -206,62 +378,41 @@
    ]
   },
   {
-   "code": "2033",
-   "name": "佳大",
-   "m": "tse",
-   "chg": 9.87,
-   "price": 65.7,
-   "value": 527965200.00000006,
+   "code": "8437",
+   "name": "大地-KY",
+   "m": "otc",
+   "chg": 9.75,
+   "price": 15.2,
+   "value": 4180000,
    "news": [
     {
-     "title": "【10:33 即時新聞】佳大(2033)盤中走強，鋼鐵族群多頭延續成盤中焦點",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONXpWSFJ0VmFFUGFnVEdrak01Uy1xNHRhYWNyQm4wOHI5czd3VHRtMGdtWHd3aW5wXzVFY0hpc1VlQTZVSkhTYTN1bkFkLXBGSU5Sb0M2NnY3WEoyakF5Qkp0OHFCdEZDcEVGcGJLeFg1bEZacVdBb3duLWVrcFE1ek8xdDh6R2tXazc5ajhn?oc=5",
+     "title": "【10:05 即時新聞】大地-KY(8437) 盤中勁揚近一成，市場聚焦KY族群走強",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxON2xxdm5MR1lJc0I0SjNGNG02Q0VqTlpGbF9lYzVXb1YyamR6ZlVEaVNzLWpTZ2tFbGdIbjNTR0tROVc3UUNrSTJGaEwxdGZ1YWNtcHZhMThsZW4zVGY2VUxWZ0RCT3BKU0FEQ1NvbnQwWlZpal9kWllhNi15eFVaeVJfT3lYQmV1QlhUYW93?oc=5",
      "source": "CMoney投資網誌",
-     "pub": "2026-10-19T02:33:47.000Z",
+     "pub": "2026-10-20T02:06:45.000Z",
      "score": 0,
      "themes": [
-      "鋼鐵"
+      "市場聚焦KY"
      ]
     }
    ]
   },
   {
-   "code": "5498",
-   "name": "凱崴",
+   "code": "8084",
+   "name": "巨虹",
    "m": "otc",
-   "chg": 9.87,
-   "price": 65.7,
-   "value": 3090987900,
+   "chg": 9.64,
+   "price": 15.35,
+   "value": 15303949.999999998,
    "news": [
     {
-     "title": "今日漲停股｜台股開低收斂跌幅，電子零組件與PCB族群逆勢亮眼，富喬、凱崴、科嶠強勢漲停 1019",
-     "link": "https://news.google.com/rss/articles/CBMitwRBVV95cUxPRi10TWdCd25UMmxReUQyM3AxQ1RoTTFicUdNdnRVLVVMcHowY3F0b2d2OGdCX0pQckNFSzRSUGZLNkZ0ZXZRNzJ5WWZROE5ObUNBY2hQejNMU2pzUGxIMWhoc0RRU05tY0EtdHYzQl9qZDMyR0VkT0RHZ095aXdEZWFzQUxrUVhmekhYa0hwZGNZa2M3ZlNxUENHenNSbU9KN0FnUUkxekN6bHNYa1VwVGJZcE5OZHkySEFoVF9qdDNHbnVhX2xzQUZkVFNXOFNsVWZJVU42YWtYRlZNSEkzVUtLRVZaOXJTbjJnRnlEZERzRUVCUHBjemlvLU0zaGxZTGhtWERtTTdadVptYmdYeS01eTZJczllNDJfM0NBdnF2eTIxWjJ4T0dQb09lOC1tVHZDUGEwMnIzOWF0bWF3cmhaSG5iR1ZRV25tejFFbFRWcjhsb1FNMzFnTXN2VUdGel8zb3BNS08yMEcyRFdqY1lXNnNVQWh5Q0pFN29zdmlFaTVCamJ2N05KZFlaMkd1MGJnU3lNR095NVd1SmxJb2twTGFYNGNXV1VlTi1QYm5aMGRrMGR6Z1ZlMGE5SG8wdmlMRXZiME9SOHBkYm5GNElqWERXdFdma0E3YWhVUzJIR1BFTWRha1BxeVZvUW54NW44cGNSWmJEckYxczZyUUhTd245QTNBUHBJTXpEWU9ydHdrdkY1TnBaOG43WVlhMzBsU1lXdTVid1NUQ21BZ3VYOThHZmM?oc=5",
-     "source": "永豐金證券",
-     "pub": "2026-10-19T13:33:44.000Z",
-     "score": 2,
-     "themes": [
-      "PCB",
-      "組件與PCB"
-     ]
-    },
-    {
-     "title": "PCB玻纖布全線噴發！富喬、凱崴領軍",
-     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9HSk9rY2x4cXVsVWxNbWRiNXItN3JmTVVzbzZINWwzMmtrRWswWjh5eWhYQjFMQm9UOFdYYmxPRzQtRDN3VlpZeHJWdHk?oc=5",
-     "source": "聚財網",
-     "pub": "2026-10-19T11:04:44.000Z",
+     "title": "記憶體跌不停！「這封測廠」跌逾3%失守百元、南亞科也跌3.21% IC設計倒一片、巨虹卻噴逾9%",
+     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1EZ0xPMDJaWDlDd25zWHJ5RVlkcFdoMUZ2dXAySDhTYW0yV2h6S2tnUUYyMXZUT1lmSzEtOWZsaXhaS1lNQ0syM2Vzcw?oc=5",
+     "source": "FTNN 新聞網",
+     "pub": "2026-10-20T07:20:00.000Z",
      "score": 1,
      "themes": [
-      "PCB"
-     ]
-    },
-    {
-     "title": "5498 凱崴- 【今日盤後速報】富喬泰國新廠動工！玻纖布與PCB材料同步轉強，誰有營收支撐？ - 股市爆料同學會",
-     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBSYVhJMkx6dXdBYXk3X1Q0SlMtNVd1aFV6MDA2a1RJcGZyWXQtTEJvVXEtNjhXN1d2dGZWSGl1bVBfSHdhZmNrR3AyYUtQclNWMVNodDQ5NVg?oc=5",
-     "source": "CMoney",
-     "pub": "2026-10-19T09:44:14.000Z",
-     "score": 0,
-     "themes": [
-      "PCB"
+      "記憶體"
      ]
     }
    ]
