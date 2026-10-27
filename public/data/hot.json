@@ -1,84 +1,283 @@
 {
- "date": "2026-10-22",
- "scanTime": "20:55",
- "total9": 21,
+ "date": "2026-10-27",
+ "scanTime": "21:09",
+ "total9": 26,
  "items": [
   {
-   "code": "8099",
-   "name": "大世科",
+   "code": "4526",
+   "name": "東台",
+   "m": "tse",
+   "chg": 9.99,
+   "price": 45.15,
+   "value": 2358906900,
+   "news": [
+    {
+     "title": "人形機器人商機不只說說！上銀出貨美系大廠 盟立、東台等多檔漲停",
+     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9YVFc5eVNTTG9nQmFJWG9CNVE1eDhiWG1CeG9vTzVCSHAzakFMWHAycVozVFZUaXpIeDhfcnVyRXRGcmxfN2tONnU3Umk?oc=5",
+     "source": "聚財網",
+     "pub": "2026-10-27T12:34:48.000Z",
+     "score": 2,
+     "themes": [
+      "機器人",
+      "人形機器人"
+     ]
+    },
+    {
+     "title": "外資大賣81億仍狂掃記憶體！「這3檔」合體吸金126億 東台亮燈漲停獲加碼近萬張",
+     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5XdTFhWjJOdWZYanhiY1hHZUc5SU1TdEZyZ1Jpb0p2Y1J2U0MyUnZoLThQUFZnTUphcktBNHAyWVd6WjFyMWNIOWJwWQ?oc=5",
+     "source": "FTNN 新聞網",
+     "pub": "2026-10-27T12:00:00.000Z",
+     "score": 2,
+     "themes": [
+      "記憶體"
+     ]
+    },
+    {
+     "title": "上銀機器人零件開始出貨！盟立、東台齊亮燈 機器人大軍搶走台股聚光燈",
+     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBESDU1dmNVSVNaMUJkZmFXcXdzUW1oNGc3Y01lS0ljTnYyRE5Lc3NWN1FOZGxqQ19hR2s5OF9OemxaYUxDWE15NV9EakY?oc=5",
+     "source": "聚財網",
+     "pub": "2026-10-27T11:18:27.000Z",
+     "score": 3,
+     "themes": [
+      "機器人"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "1569",
+   "name": "濱川",
    "m": "otc",
+   "chg": 9.98,
+   "price": 94.8,
+   "value": 707397600,
+   "news": [
+    {
+     "title": "濱川切入水冷散熱成營運焦點，股價沿短期均線上漲",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTzhXb3B1cmctWTZvQ0hDaUdhWXpHZWZpYVBZTnphenZBcVJ5OEthU2g3WjVaRTVmZzFnZWExUE14REw0S3NPWW9Nb2xFU1FCdXFtY0VoSlJiRmJTVkJUajM4c2tSMHBqcmV4a0g1Ty1LOFQybXlPWjFWS21VT25hRg?oc=5",
+     "source": "財訊快報",
+     "pub": "2026-10-27T01:51:16.000Z",
+     "score": 0,
+     "themes": [
+      "散熱",
+      "水冷"
+     ]
+    },
+    {
+     "title": "【09:17 即時新聞】濱川(1569)亮燈漲停，AI水冷與主力續佈局成焦點",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNU0RBa24tWjVuR3pSRWlBS0tSdUxHWmc1LWFRS2xUdTZNT0JmbWRRZDFuaXNpZ0F5QXV6bW03UnRoUG1fUFM4SnY3NDJCdWtUVldVbW84SmFkYjBjcnhrZDNKLXJmTXlvR3k3RG1YSnVZMFhyV1ZYaklhLVgwZUFUb1QySlZOVGlSMHN4ci1n?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-27T01:17:23.000Z",
+     "score": 2,
+     "themes": [
+      "水冷"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "3379",
+   "name": "彬台",
+   "m": "otc",
+   "chg": 9.98,
+   "price": 27,
+   "value": 5481000,
+   "news": [
+    {
+     "title": "機器人族群集體暴衝！東台、彬台鎖漲停 盟立、上銀狂飆近10% 8檔強勢股全面點火",
+     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9nX1gwQ1Z1OVV6Wnh6N19oUTFKQzY5YldHVDFXM0k2eFF3YTc1eVBPTmUyekdLcmZMUGFFYVdBQXI4MFhSQkpyVVlxRUI?oc=5",
+     "source": "聚財網",
+     "pub": "2026-10-27T09:12:15.000Z",
+     "score": 3,
+     "themes": [
+      "機器人"
+     ]
+    },
+    {
+     "title": "黃仁勳掀實體AI新局！上銀、直得、彬台盤中漲停 機器人六強成盤面焦點",
+     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0zcTdCd0c5REhLNzBQNm9NR3RvVTI5MmNSdENsR1dKWXRfa1ZrMktGVVZWZzBjMlJ3dlRYRW5ST1ZiSzVQbmVxaDl3RXBMeHVZUVFJSHI4ZHFEUThDcDRQdWZtdVhTYW5pd2M1TVE2Yw?oc=5",
+     "source": "理財周刊",
+     "pub": "2026-10-27T03:20:48.000Z",
+     "score": 1,
+     "themes": [
+      "機器人"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "2464",
+   "name": "盟立",
+   "m": "tse",
    "chg": 9.94,
-   "price": 77.4,
-   "value": 35294400,
+   "price": 177,
+   "value": 2372862000,
    "news": [
     {
-     "title": "8099 大世科- 阿華概念股- 股市爆料同學會",
-     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE03WXpKY09TOWpuX3VsNkxiR0FNT1h0Yk5TNE5yWVdYSG9ZM3FMb1ZsbC1xYzgtRWtUSDBTUXFPU3BtRjAtRmpiLXJlYmFnYnNuT19sR1RuR28?oc=5",
+     "title": "人形機器人商機不只說說！上銀出貨美系大廠 盟立、東台等多檔漲停",
+     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9YVFc5eVNTTG9nQmFJWG9CNVE1eDhiWG1CeG9vTzVCSHAzakFMWHAycVozVFZUaXpIeDhfcnVyRXRGcmxfN2tONnU3Umk?oc=5",
+     "source": "聚財網",
+     "pub": "2026-10-27T12:34:48.000Z",
+     "score": 2,
+     "themes": [
+      "機器人",
+      "人形機器人"
+     ]
+    },
+    {
+     "title": "上銀機器人零件開始出貨！盟立、東台齊亮燈 機器人大軍搶走台股聚光燈",
+     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBESDU1dmNVSVNaMUJkZmFXcXdzUW1oNGc3Y01lS0ljTnYyRE5Lc3NWN1FOZGxqQ19hR2s5OF9OemxaYUxDWE15NV9EakY?oc=5",
+     "source": "聚財網",
+     "pub": "2026-10-27T11:18:27.000Z",
+     "score": 3,
+     "themes": [
+      "機器人"
+     ]
+    },
+    {
+     "title": "【09:43 即時新聞】盟立(2464)股價走強，市場聚焦人形機器人與半導體自動化雙主線",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZi05UDluMW5tM1Y5QWdjM0pZT1doSzRaNDdpWlNUSi1NQy1xdzZJdTZkUVJVWGVZdEVCbVJWMFYtdUVrNDR4RG9wZjZvQ3RjSnNKOXVJWlJrNmVIQ1c1U2JRdjgydTdKYzZMcGswZ1k0RFJWdWM3aFMzZzNGMHB0S293T1d0VVM2eUtMN3V3?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-27T01:44:04.000Z",
+     "score": 0,
+     "themes": [
+      "機器人",
+      "人形機器人"
+     ]
+    },
+    {
+     "title": "盟立半導體設備訂單強勁，今股價攻上漲停- 新聞",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNc1J0YWs4RmpSMVZuQVhKMXZ4anczVXNZLXZqYUM1MkdXWTAwNmhGMldUQVE1bkhGNFgyWjU3UjJHZFl5Zld4M3hPRlh4aGlGeDV0SUpLV0Z1R0lkeFFhcUUzUlVzNEJXMTVCMkVNM08xSGJabG9RUTN5RFp5dVZVa3Q4Tm96QzdFcHBPOEZ3SXk0QQ?oc=5",
+     "source": "MoneyDJ",
+     "pub": "2026-10-27T01:44:00.000Z",
+     "score": 2,
+     "themes": [
+      "半導體設備",
+      "設備"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "5426",
+   "name": "振發",
+   "m": "otc",
+   "chg": 9.9,
+   "price": 33.3,
+   "value": 480152699.99999994,
+   "news": [
+    {
+     "title": "【10:17 即時新聞】振發(5426)股價走強，AI伺服器機殼題材成盤中焦點",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRjY0UVVrX2Y1aTItdGJFQzhtUWRISV93UzQxd0puemY3Ql9vTjR5VndhZjdGTDJWcDJ3UXZYVjBZTS1Hbk5TZ1JwanU2SGM1RjFHMTdzWGcwa2kxMDc1aThwd0swZU9RdXdra1Nhd2tTLW1hLURIYm13dWswRzNlcVBJZkMzWlphcVFjazNB?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-27T02:17:27.000Z",
+     "score": 0,
+     "themes": [
+      "AI伺服器",
+      "伺服器"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "2049",
+   "name": "上銀",
+   "m": "tse",
+   "chg": 9.87,
+   "price": 328.5,
+   "value": 1922053500,
+   "news": [
+    {
+     "title": "上銀機器人零件開始出貨！盟立、東台齊亮燈 機器人大軍搶走台股聚光燈",
+     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBESDU1dmNVSVNaMUJkZmFXcXdzUW1oNGc3Y01lS0ljTnYyRE5Lc3NWN1FOZGxqQ19hR2s5OF9OemxaYUxDWE15NV9EakY?oc=5",
+     "source": "聚財網",
+     "pub": "2026-10-27T11:18:27.000Z",
+     "score": 3,
+     "themes": [
+      "機器人"
+     ]
+    },
+    {
+     "title": "1597 直得- 【今日盤後速報】上銀證實人形機器人分批出貨，傳動與自動化股走強，誰有營收支撐？ - 股市爆料同學會",
+     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5IN1NnVEhONE1NQTNuejExdng2MEhtcl9fNEQ3cVYyVmNVTXI3dGVlZXVlc1FIcEhrckNDZTZRWHdlVWl6X1h4Qi1mNkV1NktJOXdCUEdtTVc?oc=5",
      "source": "CMoney",
-     "pub": "2026-10-22T08:30:55.000Z",
+     "pub": "2026-10-27T10:45:45.000Z",
+     "score": 1,
+     "themes": [
+      "機器人",
+      "人形機器人"
+     ]
+    },
+    {
+     "title": "【今日盤後速報】上銀證實人形機器人分批出貨，傳動與自動化股走強，誰有營收支撐？",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBKM2MwSW5JODNhSTJLRFkycHhkZ2FfaC1zcFdHdnphSVkxOUxJU0o4dUNqdjU3ZUg2OENCNl9wRTY2eEFpU1oyOEJuOEZNTm9BcjB6V2IxR3RXRExyU05pckNfLXNsVVRZaHF0MWJmVkFaQ0RSSGxCZV9tYWtjQQ?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-27T10:45:42.000Z",
+     "score": 1,
+     "themes": [
+      "機器人",
+      "人形機器人"
+     ]
+    },
+    {
+     "title": "上銀突傳重磅消息！人形機器人零件開始出貨 股價飆漲停、大銀也一度亮燈",
+     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE14dzllSWlTMm45QlRhaERjczQ2RXdKYUlSbHNSdDd0Vm5JT0pBaERqTE1CQ3VFZVN5MkNON2FvRXlnaENCOGJqOFFwVQ?oc=5",
+     "source": "FTNN 新聞網",
+     "pub": "2026-10-27T06:15:00.000Z",
+     "score": 3,
+     "themes": [
+      "機器人",
+      "人形機器人"
+     ]
+    },
+    {
+     "title": "傳動元件與機器人需求大增！訂單能見度達2027年，上銀等台廠逆勢突圍-財經焦點情報站",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQTJyd3gzUE13bFlUNGRJeE5rYzJtdzhWeVlCN09tZXJTUXluMTlYQk4zME5uYU54Vzg3YjgzZzBYR2dyaXl3N2NMZFllLVRCLVN2bE00ZmZ0bnFaMVlaX3FTYWk2RjNPMWFpSUwwekVyMUVSWE1zMTZlTTNqUlUyUlp3?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-27T04:39:37.000Z",
      "score": 0,
      "themes": [
-      "阿華"
+      "機器人"
      ]
     }
    ]
   },
   {
-   "code": "6680",
-   "name": "鑫創電子",
+   "code": "3691",
+   "name": "碩禾",
    "m": "otc",
-   "chg": 9.86,
-   "price": 54.6,
-   "value": 2620800,
+   "chg": 9.63,
+   "price": 119.5,
+   "value": 475371000,
    "news": [
     {
-     "title": "持續深化軍工市場布局，鑫創電子今年轉盈可期- 新聞",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSXJiZnpDVHFMRkZ1WlNQbzE0dW42cy1NRExLMXZ1UFVTaEJDb21MOVpoQ0lvang2Q01UQzQ4R3VtWThDNl9BS0V1S3RTRm1vTE1idHVEWXkxcnY2YzJodVlpRVRWSVR2UnlWTlVSUWYxemVJSldmZEhTMzdDa3NsVVNuTW8tNHNwN2puTHZBdGgyQQ?oc=5",
-     "source": "MoneyDJ理財網",
-     "pub": "2026-10-22T01:50:00.000Z",
+     "title": "【09:23 即時新聞】碩禾(3691)急漲逾9%站上119元，太陽能導電漿題材受關注",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNmV0Smpnb3ZSNHlnWG1TanlZd1d1dmU2ZXNlanBrNm0yYkYzOHdGZ1hCeFREQVZRYmFzSjJ2U1NYb1BseTRxblBoUk5TU0J2NXlPTmlMckZsN2ExZzNTZk53b19PYnRIdmdwamRxb01Jd3Y2OU5wRXI1THExc1VTXzZheXlXcWdCbmlsLUdR?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-27T01:24:02.000Z",
      "score": 0,
      "themes": [
-      "軍工"
+      "太陽能"
      ]
     }
    ]
   },
   {
-   "code": "5205",
-   "name": "中茂",
+   "code": "6245",
+   "name": "立端",
    "m": "otc",
-   "chg": 9.82,
-   "price": 24.6,
-   "value": 393600,
+   "chg": 9.1,
+   "price": 98.3,
+   "value": 405585800,
    "news": [
     {
-     "title": "《綠能環》注意股：中茂 近5日跌35.45%",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOENjV3pFYXJEYTdDZm1lVkx4NUdLMzdyRmF2Y0Fvc3ZMOFlzVXI4ekF1d3ZUMFFuQV9ieW1qYUdoODk1RU1NVEZsRGt6UXZpUTF5SUJJTE9BclJvQTZmSXY1TjdjQ2JLdVN2WDBmUGVSSGVJeGNMSHJGRmgxR1Z3Q01nLUZOMXhl?oc=5",
-     "source": "富聯網",
-     "pub": "2026-10-22T00:03:00.000Z",
-     "score": -1,
-     "themes": [
-      "綠能"
-     ]
-    }
-   ]
-  },
-  {
-   "code": "6945",
-   "name": "圓祥生技",
-   "m": "otc",
-   "chg": 9.79,
-   "price": 129,
-   "value": 69789000,
-   "news": [
-    {
-     "title": "焦點股：圓祥生技進入中國藥證送件最後里程金關鍵期，授權金將持續堆疊向上",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMl9zTTlsdjNpZ1FhbHhHQmZyUU5hSmQxTHJnNVBLb241emRUTm5xdTJBZHh0Q1ZTbURMckJzSTI0WERCZnowbzdMNWIydTFCZlk0cUllN0E1QUNOQmtDMnIxX0FhakQyc2VZQmc5anZlNlhrWkstTkQwNFZGRnBLdXlQNFdPM243?oc=5",
-     "source": "富聯網",
-     "pub": "2026-10-22T01:21:00.000Z",
+     "title": "【09:50 即時新聞】立端(6245)股價走強，無人機與網安題材成盤中焦點",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaW1lOElxNDNjUk90c3BLcmMzZHhyczhDdnB4Nm9FX1ZjWlh5Vk5KUlVNcXprWTJvX2ZSV21tZlotempRRlp5N1lwTlpXOWFVOURsSTQ3SU1xOG5ORGRkMkRtNk5QajhFQkx0dXdURFNtVWVobER5V2Q2VUoza3VMWGQzS2E1MXdyckdKV09B?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-27T01:50:45.000Z",
      "score": 0,
      "themes": [
-      "生技"
+      "無人機"
      ]
     }
    ]
