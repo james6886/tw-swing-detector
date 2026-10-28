@@ -1,176 +1,1174 @@
 {
- "date": "2026-10-27",
- "scanTime": "21:09",
- "total9": 26,
+ "date": "2026-10-28",
+ "scanTime": "21:59",
+ "total9": 69,
  "items": [
   {
-   "code": "4526",
-   "name": "東台",
+   "code": "2444",
+   "name": "兆勁",
    "m": "tse",
-   "chg": 9.99,
-   "price": 45.15,
-   "value": 2358906900,
+   "chg": 10,
+   "price": 15.95,
+   "value": 39603850,
    "news": [
     {
-     "title": "人形機器人商機不只說說！上銀出貨美系大廠 盟立、東台等多檔漲停",
-     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9YVFc5eVNTTG9nQmFJWG9CNVE1eDhiWG1CeG9vTzVCSHAzakFMWHAycVozVFZUaXpIeDhfcnVyRXRGcmxfN2tONnU3Umk?oc=5",
-     "source": "聚財網",
-     "pub": "2026-10-27T12:34:48.000Z",
+     "title": "【11:21 即時新聞】兆勁(2444)亮燈漲停，網通族群盤中走強",
+     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjd2ItTS1aS1lhVDlrUm9qRlhqUER5QkwzVlJyYURiSnhhdTg0aGJMQVdSMDAyaUc2bHdKRmNrRU9MYjBtV29zb3RKRklEbjlCUk0wVUtzVlVIelh6VkJWNTY4cHhuTVk?oc=5",
+     "source": "CMoney",
+     "pub": "2026-10-28T03:21:39.000Z",
      "score": 2,
      "themes": [
-      "機器人",
-      "人形機器人"
+      "網通"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "4977",
+   "name": "眾達-KY",
+   "m": "tse",
+   "chg": 10,
+   "price": 187,
+   "value": 1327326000,
+   "news": [
+    {
+     "title": "〈焦點股〉Lumentum、Coherent大漲 眾達-KY領軍光通訊族群紅光滿面",
+     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE44b0VNdzJVck1TeUxtbVV1SUhSQjVHR3d5LVlvWWNnV2xDaTduaHU0Vm9Ic0NrZy1BMkNXbDk3SHR6ZnZtTlUxUUlCOUVnanY4RklGN08yT2c?oc=5",
+     "source": "CMoney",
+     "pub": "2026-10-28T06:07:24.000Z",
+     "score": 1,
+     "themes": [
+      "光通訊",
+      "Y領軍光通訊"
      ]
     },
     {
-     "title": "外資大賣81億仍狂掃記憶體！「這3檔」合體吸金126億 東台亮燈漲停獲加碼近萬張",
-     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5XdTFhWjJOdWZYanhiY1hHZUc5SU1TdEZyZ1Jpb0p2Y1J2U0MyUnZoLThQUFZnTUphcktBNHAyWVd6WjFyMWNIOWJwWQ?oc=5",
+     "title": "〈焦點股〉Lumentum、Coherent大漲 眾達-KY領軍光通訊族群紅光滿面",
+     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5Zd2M1RXNoOUUyc20wVXVMOW53MnE0c0xPVUlJZldtcnVBTnduWEtYMzl2WWRya3U2d2JpMVFmOEZxeGMyM3B1T1BuSHR4TXM?oc=5",
+     "source": "鉅亨網",
+     "pub": "2026-10-28T05:55:46.000Z",
+     "score": 1,
+     "themes": [
+      "光通訊",
+      "Y領軍光通訊"
+     ]
+    },
+    {
+     "title": "【11:31 即時新聞】眾達-KY(4977)亮燈漲停，AI光通訊族群成盤中焦點",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNS3NXcjF2RUl1TXE5eTM3Qi1JUk5UUXhPWjdnRDJzeW4ycmRrbEFsWGhHci1TSXZWUEs3a0MyMmtlWUdQQWdkb0l4VlhMXzJwUGNtUm0yZlREMHN5Ums0SkF5NVhITlpya3kzN2hmbXZpZE1DSWFpYUZGbS02SW5lVjI2dlNWZHFLTm4zSm1R?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-28T03:31:43.000Z",
+     "score": 2,
+     "themes": [
+      "光通訊",
+      "AI光通訊"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "6217",
+   "name": "中探針",
+   "m": "otc",
+   "chg": 10,
+   "price": 170.5,
+   "value": 417895500,
+   "news": [
+    {
+     "title": "【12:52 即時新聞】中探針(6217)亮燈漲停，半導體測試針族群吸睛",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNb2FPMzFHV1Q0cVZVUnVHTzJNUVlPaFJMcFUwM1l5cVJiMGtZOTg2UmhmQWozWlpXblVLd1BobjZ4TmFxZTFaV2RNVzB0bFVlTEwxc2RkYlVhVldWc21KYlg5cGVkblQ4VW44YnhkdXpVdXROaUloVkRSS2ROVVphdUVSalNpM1lnWGo5dnNB?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-28T04:52:47.000Z",
+     "score": 2,
+     "themes": [
+      "半導體測試針"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "8291",
+   "name": "尚茂",
+   "m": "otc",
+   "chg": 10,
+   "price": 28.05,
+   "value": 673200,
+   "news": [
+    {
+     "title": "萬紅叢中一點綠！尚茂漲停帶CCL族群開派對 唯獨「它」落單",
+     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9sd2xsUFV5clpMN2FWOVJXT250T2ptbUYweUg4OWZJTnkzWEJ0M1pZeERGZHBQRjVITnlIaVBUZ2pFaWZzUlB1S002aw?oc=5",
+     "source": "三立新聞",
+     "pub": "2026-10-28T04:25:32.000Z",
+     "score": 1,
+     "themes": [
+      "CCL",
+      "漲停帶CCL"
+     ]
+    },
+    {
+     "title": "萬紅叢中一點綠！尚茂漲停帶CCL族群開派對 　唯獨「它」落單",
+     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9aT05Ua1Y2UFVJdTE5b240NHpicjVfN19vUlY1bGx4RVlSaVZhXzNGcE96RUo0NHFzT3RwWGYwbGNiOHk3d00zTlpoUjfSAUxBVV95cUxPWk9OVGtWNlBVSXUxOW9uNDR6YnI1Xzdfb1JWNWxseEVZUmlWYV8zRnBPekVKNDRxc090cFhmMGxjYjh5N3dNM05aaFI3?oc=5",
+     "source": "三立新聞",
+     "pub": "2026-10-28T04:22:00.000Z",
+     "score": 1,
+     "themes": [
+      "CCL",
+      "漲停帶CCL"
+     ]
+    },
+    {
+     "title": "PCB全面沸騰！「CCL廠」連4日大跌21%後觸底反彈漲5.47% 敬鵬、尚茂漲停、同泰連拉2根",
+     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1MX19pLXN0QjJxUVUxMS1oWFY3dWx2V2RPbVBMSWRkV3JKeUxzUjByR202aU9uU1dxZjU2c3BjWDdzZWZuemJBWHcydw?oc=5",
      "source": "FTNN 新聞網",
-     "pub": "2026-10-27T12:00:00.000Z",
+     "pub": "2026-10-28T03:25:00.000Z",
+     "score": 0,
+     "themes": [
+      "PCB",
+      "CCL"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "2355",
+   "name": "敬鵬",
+   "m": "tse",
+   "chg": 9.99,
+   "price": 54.5,
+   "value": 518949000,
+   "news": [
+    {
+     "title": "PCB股強勢突圍！敬鵬直衝漲停鎖死54.5元 9月營收藏驚喜",
+     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9VdS11U0syZkR2MUxiV1d0NTdhOGRDamFfQzJOOVJhRGNaNGwxV2hoY2hQRlBRN29Fc0dYNDBPWWNUcjMtQ0lEUkV3SQ?oc=5",
+     "source": "FTNN 新聞網",
+     "pub": "2026-10-28T13:15:00.000Z",
+     "score": 2,
+     "themes": [
+      "PCB"
+     ]
+    },
+    {
+     "title": "分盤也擋不住！騰輝飆7.75%、敬鵬鎖漲停 PCB資金強弱分流",
+     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9mTEx4TjUtTmNyVnIxUVBGdEIyTXEwbE5SRGpkQ21UakRfcFdmUjNRb3loMzVzcmxmMXpHOWhkb3lxeVVGQV80ZFpfcW4?oc=5",
+     "source": "聚財網",
+     "pub": "2026-10-28T04:56:18.000Z",
+     "score": 2,
+     "themes": [
+      "PCB"
+     ]
+    },
+    {
+     "title": "PCB全面沸騰！「CCL廠」連4日大跌21%後觸底反彈漲5.47% 敬鵬、尚茂漲停、同泰連拉2根",
+     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1MX19pLXN0QjJxUVUxMS1oWFY3dWx2V2RPbVBMSWRkV3JKeUxzUjByR202aU9uU1dxZjU2c3BjWDdzZWZuemJBWHcydw?oc=5",
+     "source": "FTNN 新聞網",
+     "pub": "2026-10-28T03:25:00.000Z",
+     "score": 0,
+     "themes": [
+      "PCB",
+      "CCL"
+     ]
+    },
+    {
+     "title": "PCB族群紅通通！敬鵬強攻漲停領軍衝 唯獨「這檔」缺席流綠淚",
+     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9KLTMxV1RlaXFhelNoLXh6MFlPclR2UXhZMlA0eWJDdjRGNWJmcVctdDVlbFhFMjlPMHJNN3drenRaMVVUSU9tWnBwZw?oc=5",
+     "source": "三立新聞",
+     "pub": "2026-10-28T02:40:26.000Z",
+     "score": 2,
+     "themes": [
+      "PCB"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "3189",
+   "name": "景碩",
+   "m": "tse",
+   "chg": 9.99,
+   "price": 1035,
+   "value": 18548235000,
+   "news": [
+    {
+     "title": "3189 景碩- 【最新消息】ABF載板需求升溫，「覆晶載板廠」收1035元漲停！ - 股市爆料同學會",
+     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5IU2xMR1o2WnZmUEtSXzB4Y01VMmhIYjJjOThNaDFXaXRmRzVHRnBrLWtvSzRVWEdfSTRodlpKRTZTTWI0NHh0M2o4dGZZVXdvWFp4dlZsSXQ?oc=5",
+     "source": "CMoney",
+     "pub": "2026-10-28T12:52:54.000Z",
+     "score": 1,
+     "themes": [
+      "載板",
+      "ABF"
+     ]
+    },
+    {
+     "title": "【12:11 即時新聞】景碩(3189)勁揚逾7% 買盤回流千金載板股",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMnZYbFk3TUdXbnhHT1FuRkJUOWtJSHNUWlh3NnFOUXIydUNRV1R1U2paYlJvSDhwaXR2YS1JVUNCRFFxZmZNclkycnhVRVVWME0xQl9SRmVOdnhzdkVtSXdBdmNKd2hPZGRUejlLazBhSDlOYjMxX2Z6M2JfS2pwQ2tsUEtVMFk0bkRfbEt3?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-28T04:12:14.000Z",
+     "score": 0,
+     "themes": [
+      "載板"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "6226",
+   "name": "光鼎",
+   "m": "tse",
+   "chg": 9.99,
+   "price": 39.65,
+   "value": 165855949.99999997,
+   "news": [
+    {
+     "title": "台股開盤氣勢續旺！光鼎法說報喜強攻漲停 「這檔」攜3M搶攻EBO光學商機同步亮燈",
+     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5XNHNfOVlGanJHX1JmRTFLZGxVUzB2dEZLWGZNTWlMdjhSUkluU3hPYmFkRjVleVNUZDhjeTFfd0k0XzR2S0IxRnRPTQ?oc=5",
+     "source": "FTNN 新聞網",
+     "pub": "2026-10-28T01:35:00.000Z",
+     "score": 3,
+     "themes": [
+      "光學"
+     ]
+    },
+    {
+     "title": "【09:09 即時新聞】光鼎(6226)亮燈漲停，功率半導體與綠能應用成盤中焦點",
+     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1FTjlaeWpscWE2eERRcWw5bEpZQkNWR3R0Z1Jla3N4X3ZGSHFiX01KekxHa2VlVWl1S3FkWERnSWNXN1FMUWxpblJhdnQ3QWVwQXU3UTZmX2l2QVpfSVZ1Uy1Nc3B5YnM?oc=5",
+     "source": "CMoney",
+     "pub": "2026-10-28T01:10:10.000Z",
+     "score": 2,
+     "themes": [
+      "綠能"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "3006",
+   "name": "晶豪科",
+   "m": "tse",
+   "chg": 9.98,
+   "price": 275.5,
+   "value": 5214939500,
+   "news": [
+    {
+     "title": "【10/28 產業即時新聞】NAND FLASH 族群大漲 6.75% 點火，晶豪科、群聯強勢領跑買盤回溫",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONTgzREoxbVBxSmJ3eFV6QlgyWFIyX3lmQVpCalVUMENkX2dUbjgwT1FsTjFDc3E2WEwxWHRHTl80SE9aaGNuYVdKd01VZWpzZ2oxaDM2RjhPZldNWDVUZzFGY3o4NkdFNXVoVW9EZmNleUV0OUhvTTJjQ2lpX1kzSjhJb1ZfS21Fa3lOS2tR?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-28T04:30:36.000Z",
+     "score": 2,
+     "themes": [
+      "NAND"
+     ]
+    },
+    {
+     "title": "【12:01 即時新聞】晶豪科(3006)盤中勁揚逾8% 記憶體族群續列焦點",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNkJaVUlXS3VIZDVXSERKTGhuMFNFajBHN3BJWUlYRVZWSVo1Z1BUbHlKUDY1UlN1UmpZd0hEODBnOHVoeTlnaVJrWnRQMmZvT09XN1VfdnhjT01fYmlkWTB5a2JoYklRczRleVRTUUhKaTJpT0piUUZGU1pqQldDUV9CMFB4Q20yMkF0aHR3?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-28T04:02:06.000Z",
+     "score": 0,
+     "themes": [
+      "記憶體"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "3105",
+   "name": "穩懋",
+   "m": "otc",
+   "chg": 9.98,
+   "price": 540,
+   "value": 9054720000,
+   "news": [
+    {
+     "title": "3105 穩懋- 穩懋光學、基建營收Q3營收占比已過半看好2027年低軌衛星及航太產品發展- 股市爆料同學會",
+     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9va0xPS1IwZUlvU3RtcEJxeEowVGpQV18zZlIzTFZtajIwa3ZNZThhOFl5VFYzaExCdjdDZWJLRG9mZVFnUGlOcEpvZEktWFVJU2NFSXlUazA?oc=5",
+     "source": "CMoney",
+     "pub": "2026-10-28T13:43:35.000Z",
+     "score": 1,
+     "themes": [
+      "低軌衛星",
+      "衛星",
+      "光學"
+     ]
+    },
+    {
+     "title": "穩懋光學、基建營收Q3營收占比已過半 看好2027年低軌衛星及航太產品發展",
+     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1pS0drTzJMV0k5LWlwWWdNWEU3c0RxYWxaUDBvYmxOOVNaeGZFbk9EQ2hvRjFfNmJyWTFhYlJYM1dQcmYzMkJ2bjhWTW1ZZUk?oc=5",
+     "source": "鉅亨網",
+     "pub": "2026-10-28T13:20:09.000Z",
+     "score": 1,
+     "themes": [
+      "低軌衛星",
+      "衛星",
+      "光學"
+     ]
+    },
+    {
+     "title": "穩懋Q3獲利大爆發！單季EPS飆4.55元，挾AI光通訊題材亮燈漲停",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1BVFhyNExiX21oeEFJT01aRVo4dk01azFSRnplMHZBeWQzZzNkaVZ2NHVNNUUtaUZjV1Vidm9sakVuTmtDMGo5eGh4QmdvNkk4aDNnSFpIeW1Tb1IwVlJkTWxR?oc=5",
+     "source": "鏈新聞 ABMedia",
+     "pub": "2026-10-28T06:42:23.000Z",
+     "score": 3,
+     "themes": [
+      "光通訊"
+     ]
+    },
+    {
+     "title": "3105 穩懋- 〈焦點股〉新創PicoJool攜手搶攻光通訊商機穩懋亮燈漲停攻上500元大關- 股市爆料同學會",
+     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE11Q0NobTZFS0NUQWZaR214QVdkMWprOFh2dm1OQVFpc214OWduLTRkbDdVYTlfeVUyakNCcXZSa0pELTZ5ZUVnek1GU3doVV9faE14X2xyN04?oc=5",
+     "source": "CMoney",
+     "pub": "2026-10-28T04:19:36.000Z",
+     "score": 3,
+     "themes": [
+      "光通訊"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "3260",
+   "name": "威剛",
+   "m": "otc",
+   "chg": 9.98,
+   "price": 363.5,
+   "value": 3835652000,
+   "news": [
+    {
+     "title": "記憶體大爆發！「這檔」Q3 EPS狂賺36元攜威剛漲停 南亞科飆8%、群聯也衝6%",
+     "link": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxOOVl5SnBhMUZYdXhMdDhjTHJYT2JCSTFFYTl0YmktTEhlWU5XekF6bGtmWEJUS09qTjJiSFc0Xy1peEtQTHZya2hQNE4wZ0Nnb2N2TVBkVHFJOU1udVNhNWxzeXJ6cFJlTXpYTnpabkFIZ1lCY0lLWmtUSjRsOGlSMkFRWUFzLXZzYkxjVjQ2dmplVE5YTHRlUmFEVHVXMUJJdXVJLXRCTXhZYkhkcUhRb012Z3JoUk9QS25oNXNuZWJDNGplQ2dHNGN5TFIxYWZleVBYOTVMSHpYY2d4WVl0NWFJQzFvbkxrNWg4bGhhamtpcWt0NnFCX01rUW02UmVfWl9BdFE5RU9hTWRia0FjQUYzejZpU3dERnhOX0F6em9mMGpIeW5hRC1rX1hvb3ZRN1dVSzMyRV9KRFNfZ1YxT0NCam0td3FMN1Y5cE1jYzVWaXViWUZlMWRVTQ?oc=5",
+     "source": "Yahoo股市",
+     "pub": "2026-10-28T07:05:00.000Z",
      "score": 2,
      "themes": [
       "記憶體"
      ]
     },
     {
-     "title": "上銀機器人零件開始出貨！盟立、東台齊亮燈 機器人大軍搶走台股聚光燈",
-     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBESDU1dmNVSVNaMUJkZmFXcXdzUW1oNGc3Y01lS0ljTnYyRE5Lc3NWN1FOZGxqQ19hR2s5OF9OemxaYUxDWE15NV9EakY?oc=5",
-     "source": "聚財網",
-     "pub": "2026-10-27T11:18:27.000Z",
-     "score": 3,
+     "title": "【11:41 即時新聞】威剛(3260)亮燈漲停，資金回流記憶體族群",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV0cwNnUwOU1YcXp4TWNraDJ5LWV0b2JXWDIzX1JpdGRUajhhcVVxd3NDTkY4RUcwcndrRmdhRHFVNXNVcmRLTGQtMGZkMWhtSXpYNXVhR3dwVFdyQjB4MHllS0xqYW1hMkZ3Y000LXlFUVVRMVJNck91cEVMU3I4RGw5YXlzcjJvWU43RzF3?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-28T03:41:52.000Z",
+     "score": 2,
      "themes": [
-      "機器人"
+      "記憶體",
+      "金回流記憶體"
      ]
     }
    ]
   },
   {
-   "code": "1569",
-   "name": "濱川",
+   "code": "3455",
+   "name": "由田",
    "m": "otc",
    "chg": 9.98,
-   "price": 94.8,
-   "value": 707397600,
+   "price": 270,
+   "value": 602370000,
    "news": [
     {
-     "title": "濱川切入水冷散熱成營運焦點，股價沿短期均線上漲",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTzhXb3B1cmctWTZvQ0hDaUdhWXpHZWZpYVBZTnphenZBcVJ5OEthU2g3WjVaRTVmZzFnZWExUE14REw0S3NPWW9Nb2xFU1FCdXFtY0VoSlJiRmJTVkJUajM4c2tSMHBqcmV4a0g1Ty1LOFQybXlPWjFWS21VT25hRg?oc=5",
-     "source": "財訊快報",
-     "pub": "2026-10-27T01:51:16.000Z",
+     "title": "【11:53 即時新聞】由田(3455) 盤中走強，受惠PCB載板設備需求題材",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOGZvb21teEw4SGVDTzZGRFd5M25Kc1EzZ1JCTTc1RTJXSDk0REhSd2gzQmtNVURTVTRzMXVMTlFWc1FNcUxvd0RIYXVHT1ZWdEJwRmVXY1lvUHNidmJLbldocHNBaEJEanN2ejhWM2t2b2VRR2lGbzdYeUVUeW5ZelVHMG1od1MtX1lPbFZR?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-28T03:55:22.000Z",
      "score": 0,
      "themes": [
-      "散熱",
-      "水冷"
-     ]
-    },
-    {
-     "title": "【09:17 即時新聞】濱川(1569)亮燈漲停，AI水冷與主力續佈局成焦點",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNU0RBa24tWjVuR3pSRWlBS0tSdUxHWmc1LWFRS2xUdTZNT0JmbWRRZDFuaXNpZ0F5QXV6bW03UnRoUG1fUFM4SnY3NDJCdWtUVldVbW84SmFkYjBjcnhrZDNKLXJmTXlvR3k3RG1YSnVZMFhyV1ZYaklhLVgwZUFUb1QySlZOVGlSMHN4ci1n?oc=5",
-     "source": "CMoney投資網誌",
-     "pub": "2026-10-27T01:17:23.000Z",
-     "score": 2,
-     "themes": [
-      "水冷"
-     ]
-    }
-   ]
-  },
-  {
-   "code": "3379",
-   "name": "彬台",
-   "m": "otc",
-   "chg": 9.98,
-   "price": 27,
-   "value": 5481000,
-   "news": [
-    {
-     "title": "機器人族群集體暴衝！東台、彬台鎖漲停 盟立、上銀狂飆近10% 8檔強勢股全面點火",
-     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9nX1gwQ1Z1OVV6Wnh6N19oUTFKQzY5YldHVDFXM0k2eFF3YTc1eVBPTmUyekdLcmZMUGFFYVdBQXI4MFhSQkpyVVlxRUI?oc=5",
-     "source": "聚財網",
-     "pub": "2026-10-27T09:12:15.000Z",
-     "score": 3,
-     "themes": [
-      "機器人"
-     ]
-    },
-    {
-     "title": "黃仁勳掀實體AI新局！上銀、直得、彬台盤中漲停 機器人六強成盤面焦點",
-     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0zcTdCd0c5REhLNzBQNm9NR3RvVTI5MmNSdENsR1dKWXRfa1ZrMktGVVZWZzBjMlJ3dlRYRW5ST1ZiSzVQbmVxaDl3RXBMeHVZUVFJSHI4ZHFEUThDcDRQdWZtdVhTYW5pd2M1TVE2Yw?oc=5",
-     "source": "理財周刊",
-     "pub": "2026-10-27T03:20:48.000Z",
-     "score": 1,
-     "themes": [
-      "機器人"
-     ]
-    }
-   ]
-  },
-  {
-   "code": "2464",
-   "name": "盟立",
-   "m": "tse",
-   "chg": 9.94,
-   "price": 177,
-   "value": 2372862000,
-   "news": [
-    {
-     "title": "人形機器人商機不只說說！上銀出貨美系大廠 盟立、東台等多檔漲停",
-     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9YVFc5eVNTTG9nQmFJWG9CNVE1eDhiWG1CeG9vTzVCSHAzakFMWHAycVozVFZUaXpIeDhfcnVyRXRGcmxfN2tONnU3Umk?oc=5",
-     "source": "聚財網",
-     "pub": "2026-10-27T12:34:48.000Z",
-     "score": 2,
-     "themes": [
-      "機器人",
-      "人形機器人"
-     ]
-    },
-    {
-     "title": "上銀機器人零件開始出貨！盟立、東台齊亮燈 機器人大軍搶走台股聚光燈",
-     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBESDU1dmNVSVNaMUJkZmFXcXdzUW1oNGc3Y01lS0ljTnYyRE5Lc3NWN1FOZGxqQ19hR2s5OF9OemxaYUxDWE15NV9EakY?oc=5",
-     "source": "聚財網",
-     "pub": "2026-10-27T11:18:27.000Z",
-     "score": 3,
-     "themes": [
-      "機器人"
-     ]
-    },
-    {
-     "title": "【09:43 即時新聞】盟立(2464)股價走強，市場聚焦人形機器人與半導體自動化雙主線",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZi05UDluMW5tM1Y5QWdjM0pZT1doSzRaNDdpWlNUSi1NQy1xdzZJdTZkUVJVWGVZdEVCbVJWMFYtdUVrNDR4RG9wZjZvQ3RjSnNKOXVJWlJrNmVIQ1c1U2JRdjgydTdKYzZMcGswZ1k0RFJWdWM3aFMzZzNGMHB0S293T1d0VVM2eUtMN3V3?oc=5",
-     "source": "CMoney投資網誌",
-     "pub": "2026-10-27T01:44:04.000Z",
-     "score": 0,
-     "themes": [
-      "機器人",
-      "人形機器人"
-     ]
-    },
-    {
-     "title": "盟立半導體設備訂單強勁，今股價攻上漲停- 新聞",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNc1J0YWs4RmpSMVZuQVhKMXZ4anczVXNZLXZqYUM1MkdXWTAwNmhGMldUQVE1bkhGNFgyWjU3UjJHZFl5Zld4M3hPRlh4aGlGeDV0SUpLV0Z1R0lkeFFhcUUzUlVzNEJXMTVCMkVNM08xSGJabG9RUTN5RFp5dVZVa3Q4Tm96QzdFcHBPOEZ3SXk0QQ?oc=5",
-     "source": "MoneyDJ",
-     "pub": "2026-10-27T01:44:00.000Z",
-     "score": 2,
-     "themes": [
-      "半導體設備",
+      "PCB",
+      "載板",
       "設備"
      ]
     }
    ]
   },
   {
-   "code": "5426",
-   "name": "振發",
+   "code": "1595",
+   "name": "川寶",
    "m": "otc",
-   "chg": 9.9,
-   "price": 33.3,
-   "value": 480152699.99999994,
+   "chg": 9.97,
+   "price": 80.5,
+   "value": 239487500,
    "news": [
     {
-     "title": "【10:17 即時新聞】振發(5426)股價走強，AI伺服器機殼題材成盤中焦點",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRjY0UVVrX2Y1aTItdGJFQzhtUWRISV93UzQxd0puemY3Ql9vTjR5VndhZjdGTDJWcDJ3UXZYVjBZTS1Hbk5TZ1JwanU2SGM1RjFHMTdzWGcwa2kxMDc1aThwd0swZU9RdXdra1Nhd2tTLW1hLURIYm13dWswRzNlcVBJZkMzWlphcVFjazNB?oc=5",
+     "title": "【10:47 即時新聞】川寶(1595) 盤中大漲逼近兩位數，設備族群買盤回流成焦點",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNTZUOEZ4T2szT2IzdG90M21FMEFmRUlJT1hfbk9CLTV5MjVTZThUQkd3UU5pdmtQNmF6UlROem1TZE1na2hsZ3puRktkZ213Q3ZvS1Vyd1VQN0RTbXNmN0ZjQTI1WE9IQUw2dkpFc1NFM0FrdW9ia19TWE1CcklZNjJpM3RWVEdFVy1ueXFn?oc=5",
      "source": "CMoney投資網誌",
-     "pub": "2026-10-27T02:17:27.000Z",
+     "pub": "2026-10-28T02:48:01.000Z",
+     "score": 1,
+     "themes": [
+      "設備"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "4526",
+   "name": "東台",
+   "m": "tse",
+   "chg": 9.97,
+   "price": 49.65,
+   "value": 3667496550,
+   "news": [
+    {
+     "title": "東台(4526)轉型跨入 AI 用 PCB，股價急漲-朱家泓X林穎",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUWpMaUdNZXN0UEZlOGc4aFlqaHdzcVd6c09WYk5sb3B0ckhhU29CbHYwcGhIZERETGVraC1RMWFWQ2xvVmFGMGYxUFZ1d2hNQ2U2V2EyT0t0TVhSOEZjZHBnekZ2MkNHeVV5ZTAyVTFVb3FSRm5BdXhnaW43RDVraV9xUFBvV0RWTXc?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-28T07:10:12.000Z",
+     "score": 0,
+     "themes": [
+      "PCB"
+     ]
+    },
+    {
+     "title": "【10:31 即時新聞】東台(4526)亮燈漲停，市場聚焦高階PCB鑽孔機長單動能",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNG1STmM2MVFlQVF6NTV0elJwcmQtZksxX2lhb1VOVEY0OUwweXVoMTFSeHBkYmhEblpRUmVlV0FfQ3hYSGUxTV9wVHBpVXd3Snh4VUxqNlhCTXFRQ2Z3WUJpZ1Y3ajkwSGxCRm9uY2Npdi1VaW4xT2VoMmdXRmdXY0dtUU54WUNzN0dZMG1n?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-28T02:31:11.000Z",
+     "score": 2,
+     "themes": [
+      "PCB"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "6510",
+   "name": "精測",
+   "m": "otc",
+   "chg": 9.97,
+   "price": 3200,
+   "value": 1440000000,
+   "news": [
+    {
+     "title": "〈精測法說〉獨拿次世代TPU測試介面估明年Q1出貨 美系電動車、低軌衛星訂單迎收割期",
+     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAxTHpHRE9wNjlIbEFOUjJfS1dUQV9McktXRHJFWUFpc3Fsd0ZubC02WmNZZ3VMUUstZ19WazNZRHJPdGZ1bjJqN2hNZkY1SG5EMzBydXM1aV8?oc=5",
+     "source": "CMoney",
+     "pub": "2026-10-28T09:53:22.000Z",
+     "score": 1,
+     "themes": [
+      "低軌衛星",
+      "衛星",
+      "電動車"
+     ]
+    },
+    {
+     "title": "〈精測法說〉獨拿次世代TPU測試介面估明年Q1出貨 美系電動車、低軌衛星訂單迎收割期",
+     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBWWEs4NXhYVFhUVzNCbF9ZMGxucjJyUmNTRlJuU0Jod0VtVTZNNGhfLUlLNGNMUnJBSHdJOWRYNm4zMzR0RG4tdnBjRV9uRHM?oc=5",
+     "source": "鉅亨網",
+     "pub": "2026-10-28T09:44:13.000Z",
+     "score": 1,
+     "themes": [
+      "低軌衛星",
+      "衛星",
+      "電動車"
+     ]
+    },
+    {
+     "title": "AI ASIC、CPU大單明年拚量產！中華精測還打進美系衛星大廠供應鏈 CPO布局持續推進",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5nal9FeDRIRUZMNzBYblhBTHAwRU1VOWdDaFJPQk5QWF9OQUtMUkVTSjFKRHc5dXkwQ3hyZGRYQmUzZ2dnR0dWU2xLd0JsNlBxbGc?oc=5",
+     "source": "鏡報",
+     "pub": "2026-10-28T08:25:00.000Z",
+     "score": 1,
+     "themes": [
+      "CPO",
+      "ASIC",
+      "衛星"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "3443",
+   "name": "創意",
+   "m": "tse",
+   "chg": 9.96,
+   "price": 8170,
+   "value": 12467420000,
+   "news": [
+    {
+     "title": "Anthropic拋8,000億算力合約！創意鎖漲停、世芯噴逾8％「ASIC目標價全線調升」上檔最有料還得是這檔權值妖股",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBnb3pnYkx0YkQwQzE1cXVKeGtrTDBKZzV3VlBpZzY1enhnZzlBWkN5QWJ3dDNDalg1a3p3RDhLX1p5MVJrS2FmS1lfLVI1OW4zRjJCdElxODVzbGhyaTBWTllXcUFrMjRkYWc?oc=5",
+     "source": "旺得富理財網",
+     "pub": "2026-10-28T06:47:17.000Z",
+     "score": 2,
+     "themes": [
+      "ASIC",
+      "SiC"
+     ]
+    },
+    {
+     "title": "Anthropic算力布局點火 ASIC！聯發科甩連5跌強彈逾6% 創意、智原漲停",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZU16aXNJcVhXMnZxSU9BaEtWdzdPNDJCcVEzbnJ5U19yNGhLN1BTRkgwNUZnNE1UV1lYbVplX3hDNkNnaEEtRzJfUUJGODk4VHhOU0hwVmUyd1RZSXVPN2RRQzlBT01JWWtRN1J1R294bEcwTUVxUFpFNWV3bEd1NtIBX0FVX3lxTE5nenhCRHgzdTNUNXpSYUlrUlU5WWZ6c1JEMndIaHFSeElabFZPR2xRbmp5THdaaWdhUEpNZEpVLTZYQU5KRFh1WGNuRFYyczNNOHg3YnR4OGFoeGQteTlF?oc=5",
+     "source": "經濟日報",
+     "pub": "2026-10-28T04:48:42.000Z",
+     "score": 1,
+     "themes": [
+      "ASIC",
+      "SiC"
+     ]
+    },
+    {
+     "title": "【11:38 即時新聞】創意(3443)亮燈漲停，AI ASIC 與強勁營收續成焦點",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVDlxODh0bkR5NTI2TkVSOS1nQ0V4N2N5Q0pDcDNWaGYyMG1iNWlfUjUwbnZhUldMWm5MWFhPdGRLNENGSktTb2JXR2prRnhFQjhCLUhGMzN5OExXVlNWZjJtdW03bEdLTTJKeUdxTlhzV2k5UW56QkIzbVczLUNBcXU5VDNKY2JTRExZN2lR?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-28T03:38:30.000Z",
+     "score": 2,
+     "themes": [
+      "ASIC",
+      "SiC"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "4971",
+   "name": "IET-KY",
+   "m": "otc",
+   "chg": 9.96,
+   "price": 497,
+   "value": 478114000,
+   "news": [
+    {
+     "title": "矽光子紅燈連發！「這檔」連2漲13%挾穩懋、全新、IET漲停 旺矽、日月光、上詮都攻6%",
+     "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNbVhrcmZyWkw2aVhPUXAwVkxuS0JHNkpSRjdGbW50XzROTG9FOV9qYmtDUU1sLVoybWRkbDhuMkZuVkJYY05oQjJDY2tNbkZqLVp2aTVUOUJ2alVFOEhEcmxEWWtpek01ajhxMzdVX09YMkd2cS1ldUFZLTREMHh6Tlc5S1FGSFVzZUZhcnpQSUVlbEIwWHBNU1ZOanVaME5UXzZjUUhScUpUWnFEYjJrak5uSEpBRjc5cjFMRTZzSV94amNJZ3VVcHh4MWVDdmhXWHNOMW10ZlZVc3ZuRW9KRU9ZN0NHcEUtX3gzRDZ3c25QbERwUm5aT19MVV9SUG5FSnV4OUlXbm9BVGdzQ01DQlJtWFV5UkpITE1QZHFVMGd2SlNs?oc=5",
+     "source": "Yahoo股市",
+     "pub": "2026-10-28T08:50:00.000Z",
+     "score": 3,
+     "themes": [
+      "矽光子"
+     ]
+    },
+    {
+     "title": "【11:01 即時新聞】IET-KY(4971) 盤中走強反彈，高速光通訊題材受關注",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNc2RmUnJsQmRMODVrOGVmNllkYWo4c1RlUU5ldDZ4UEVoclotOUp3WTFWRDMxdFZyOFpPaDlRSFV2b2VPRXZwZll2dnhGa29oRW5FZm42S19mSE1MNXdFSlN6dVFid04xaGR3Vl9RY0lJWmFCREk1Yl9QSmlseVQ5V0FrVUpGMm52dVVheXpR?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-28T03:04:51.000Z",
+     "score": 0,
+     "themes": [
+      "光通訊"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "5230",
+   "name": "雷笛克光學",
+   "m": "otc",
+   "chg": 9.96,
+   "price": 27.6,
+   "value": 63756000,
+   "news": [
+    {
+     "title": "光學元件漲勢洶洶！「這檔」止血連3跌15%重返百元大關 中揚光、玉晶光、雷笛克光學漲停",
+     "link": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxQVzdLbVA1X2dabmZGSmNDb2d4Ql8xRTFTamUydDJKOVFrclZzd2FkZUtZZ0djbnBJenZGejU1T2R5c3J2OVExc3Rub09OcHd6U0NfZm1OM0pxMWtMRTNqMExjQ3EzRjhDRzY1dzI1UjJwSjhtVWdvUWdMd19ESjdWeVRncE5iM3FibUF2enFGTHdKbE0xcWcxOVFkbWlNeWNfdGVWVHFUS1FGZmU1Y3lYZU1iYkFmQVkyS2g3Y1VyV1hrbU5KT0tWLXB4aTZYNFoxdUp5VUl2YXNuN0NMaHdXbURHRnVPSUdsOGZKRGhaakVQQVN6UXBmdl9NMzljZG5sX1BQMGFRN0p3VXgtQ1ptandhSEZ0R1hrQm1GTmYwV2tuVHlmdE02ZkxBVnVQeW1CLXhJNDFqSmZabFlCVVo0WWU0dUZKX1ZTOUJMMGVaZzMzTGN1SXY5VmVqUDVrejhSNGxfRUJvMkgtOVJsOGh4S0dXZ1ZNalJp?oc=5",
+     "source": "Yahoo股市",
+     "pub": "2026-10-28T05:04:14.000Z",
+     "score": 1,
+     "themes": [
+      "光學"
+     ]
+    },
+    {
+     "title": "【12:25 即時新聞】雷笛克光學(5230)盤中走強，短線股價回穩成盤中焦點",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZkRRbXl3ZDdUTGlMZDVackRORUtGZDlvUWRCU0lPYTJpc0lLVVJURlM2MmVVM2cxMUpfQUZ0N2Zka0xrdHVsUTYzZUZhLTNEZTNLNzFEblNGbVJtWkRlQUdGSG9NTnlJaVlzQVhaVHZYSWxvRFJicFJVc3FUUnNfYTJMMTAxdGhybEFSR1BR?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-28T04:25:50.000Z",
+     "score": 0,
+     "themes": [
+      "光學"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "3581",
+   "name": "博磊",
+   "m": "otc",
+   "chg": 9.95,
+   "price": 116,
+   "value": 404492000,
+   "news": [
+    {
+     "title": "英特爾併購以色列商 Classiq 衝量子運算 博磊成台廠幕後大贏家 [經濟日報]",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZjk0ck5qSXpjLS1kQ05WQjNodHBiWDEzbnBFS3BiY3hpZ0tERjVaVUFmQy1zUGQzLXZIM3AtdWNubUFxaGEwckM4Wkd5SG5MY0N1dkhyelZYRzl5N0xzdlpQT0RyNVRDZVY0clh3TUNRbC1yYURRcHcwTU5IekNUSjJVWWdaUQ?oc=5",
+     "source": "富聯網",
+     "pub": "2026-10-28T02:14:23.000Z",
+     "score": 0,
+     "themes": [
+      "量子"
+     ]
+    },
+    {
+     "title": "英特爾併量子新創 博磊母以子貴 躍大贏家",
+     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBxd25yU016eG8zUHhLTmNXNWlWR2o3WDUycTNGZVFLYUNucDluZlVwU3dhbG5XcXMxbklKakZiQU5uOXc4Z0thUVU5V3BCZHNRQi1hak05T1NZQdIBX0FVX3lxTE1yS2h6NHNuUHBYdzdwTmRrY1FjU1QzVkFNUFJfWnAtTzZTRHRrLVVVS1NXcm9lYnV3ME1RTUNsUTBhZGN2alZIeVVWblJiNFhLa3RrR0RsV0VVNDc2NmRF?oc=5",
+     "source": "經濟日報",
+     "pub": "2026-10-27T18:56:07.000Z",
+     "score": 0,
+     "themes": [
+      "量子"
+     ]
+    },
+    {
+     "title": "英特爾併購以色列商 Classiq 衝量子運算 博磊成台廠幕後大贏家",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9jOXB4a2pzVEVfQ2lqQTR2WXcwZl9uUk1JVjNLTXYyRU9MbnRabXJOeTA3MXdNNDJaNjFRQUcyTFRyWmRaSTgwbnRYTWpGN0FXd1hqa0V30gFWQVVfeXFMT2M5cHhranNURV9DaWpBNHZZdzBmX25STUlWM0tNdjJFT0xudFptck55MDcxd000Mlo2MVFBRzJMVHJaZFpJODBudFhNakY3QVd3WGprRXc?oc=5",
+     "source": "udn",
+     "pub": "2026-10-27T16:08:31.000Z",
+     "score": 0,
+     "themes": [
+      "量子"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "4960",
+   "name": "誠美材",
+   "m": "tse",
+   "chg": 9.95,
+   "price": 34.8,
+   "value": 460299600,
+   "news": [
+    {
+     "title": "誠美材攻高階偏光板/先進封裝，拚改善獲利結構- 新聞",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVUJwRE1EM0ZuZl9uUWg1VVo2NVpjMzQyblhvMFljZ2ZYUkN1TXJqaVJiVTlod0NtRDlFVkxPMUVJeWJPcGdoanJxS1p3aUNRQlFhRmJRd3pObk10SFNqSTBjcUdqeUpxd2J0MWRNTmZGbW42MGplazNqcFVQc0NtemFIczExVl9JRzdHVW1pU1YtQQ?oc=5",
+     "source": "MoneyDJ",
+     "pub": "2026-10-28T02:54:00.000Z",
+     "score": 1,
+     "themes": [
+      "先進封裝"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "6715",
+   "name": "嘉基",
+   "m": "tse",
+   "chg": 9.95,
+   "price": 480.5,
+   "value": 346921000,
+   "news": [
+    {
+     "title": "【12:49 即時新聞】嘉基(6715)盤中走強近九成漲幅 聚焦AI光通訊與NPO布局",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSk5YejVmQTJIR05oYzczUVVLNVdKd0VQaV8yMkJZa2MxZXQxMDBPYzlLR1p5WjZMOGFOUEs5VUlsNm9jeUZKS1ljaExPdFF6NXRqQ2xtY0s2RjhnSUgzV1pjRUhTYkpDQk0wRUxVdzJyMzFFOWJPaVlvcTVzX1lOYnpXUjRybTlZb0tobmhR?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-28T04:49:26.000Z",
+     "score": 0,
+     "themes": [
+      "光通訊"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "3605",
+   "name": "宏致",
+   "m": "tse",
+   "chg": 9.94,
+   "price": 171.5,
+   "value": 1581058500,
+   "news": [
+    {
+     "title": "宏致擴大BE高壓線布局，AI連接器出貨續強",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdUQxS3hLX1g5Z1BWMHItR0lPbXktN2NoVkZwSENWWWFlcTB2ZnBkZlVZUjEwZ09SUXdZVENQaWtFeUFqdmJmNnBaRVh2VjQ5SWQ2S25NVmdZeEVwMVFmSDFKenplS2UyUEdDcjJfV0FObkNPWk1vclBuZDUwbHZTRWd0Wkw4SDd1SUFVVjM3bmtTdw?oc=5",
+     "source": "台視全球資訊網",
+     "pub": "2026-10-28T04:09:41.000Z",
+     "score": 1,
+     "themes": [
+      "連接器"
+     ]
+    },
+    {
+     "title": "【11:45 即時新聞】宏致(3605)亮燈漲停，高速連接器題材成盤中焦點",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZGstSHVCNWlNRWhMN1Rvb0ptZlZDM3A3YlY1YnkycHFjZGVsVmYyNHpySXdRUlNiNEdNSlJ4cDJYbEUxak9aRmo4akh2LUJJc1BNMF9KZVVZZzFwWU9Oa05zYTkzVl84NFpiZnNrdDhfYjF0SkltOUhzS3ZUZFZabFlWbHNDQ2R6dGFSME9B?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-28T03:45:14.000Z",
+     "score": 2,
+     "themes": [
+      "連接器"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "3701",
+   "name": "大眾控",
+   "m": "tse",
+   "chg": 9.94,
+   "price": 57.5,
+   "value": 194177500,
+   "news": [
+    {
+     "title": "衛星股盤中集體升空！大眾控、金像電攻漲停 台燿飆7%、台光電大漲270元",
+     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBjblRrUTFBazBxVzhqU3hjRmxYcTlvNGJLLWVyb1V0aklldDhfVnJhLUptVDdpY01uV0dFWUFRM3RSSThISUxIVGZKbko?oc=5",
+     "source": "聚財網",
+     "pub": "2026-10-28T05:37:57.000Z",
+     "score": 3,
+     "themes": [
+      "衛星"
+     ]
+    },
+    {
+     "title": "【11:24 即時新聞】大眾控(3701)亮燈漲停，低軌衛星與光通訊題材受關注",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWnowcXVkWktxN1lhdGF5M1NzQ3dZYWJBUGoxU051ZUJnbk03LWlsc3g3ZnFWMHhhUzE5dUZqbk1NS1QtTUJpNmFyeG9jMnBFU0hGLU1SZ29WQjQxaU16UmxxU3d6LVlTZXNrdnl5NGV5NVdfcjktbmVzbVQ2aHZvaWp0alY1X3JlWEFpRUJ3?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-28T03:24:59.000Z",
+     "score": 2,
+     "themes": [
+      "光通訊",
+      "低軌衛星",
+      "衛星"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "2491",
+   "name": "吉祥全",
+   "m": "tse",
+   "chg": 9.93,
+   "price": 40.4,
+   "value": 55146000,
+   "news": [
+    {
+     "title": "【09:46 即時新聞】吉祥全(2491)亮燈漲停，光電族群買盤回流成焦點",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZi0yRURsQ19uYnRDWkFTVHA1cWs1MFpVWGNKYVdtemRSOEpFQ19UTTQ5cnVBWlpfQnRVeVNCTmlsT18tWERXdkR3akZpanBwMnptcHFQQjh4LVprMkhLVENKOU1YdjBENVlrRmRnYS1LUUNqRXNkeUN3dUpaTHVLOGpWSlJFRHZvQXdfbWdn?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-28T01:47:16.000Z",
+     "score": 2,
+     "themes": [
+      "光電"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "1815",
+   "name": "富喬",
+   "m": "otc",
+   "chg": 9.92,
+   "price": 144,
+   "value": 10910880000,
+   "news": [
+    {
+     "title": "大摩早就預告有戲！喊話玻纖布短缺、ABF設備交期拉長PCB狂歡7檔亮出漲停…富喬、金像電、景碩都中了",
+     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5hZ0FNeVBMa0l3dWtLODI0N2pPYVQweDM2ai12bnY0aXEtM2NrUUdmVkwyZFQwMEhuUHVYSmg0Y3JJcnF4TFVfdkVDNA?oc=5",
+     "source": "FTNN 新聞網",
+     "pub": "2026-10-28T10:45:00.000Z",
+     "score": 1,
+     "themes": [
+      "PCB",
+      "ABF",
+      "設備"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "3035",
+   "name": "智原",
+   "m": "tse",
+   "chg": 9.92,
+   "price": 210.5,
+   "value": 531512500,
+   "news": [
+    {
+     "title": "台股重返季線！CPO、IC設計領頭衝 穩懋、智原漲停",
+     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE11N2dJeEpVa21SdERaU09ZYTBTTFBTbjhETEdDMk1LWnhPbk9sTDVSdmhMVkFyNG5sTWRTQXlLVHdNVEVBN2N6QWQ2YkRrVUJEYklXc21EaDI0ZmF4Y3F6dDN1dlRlVFBxOU5iZGl3?oc=5",
+     "source": "中時新聞網",
+     "pub": "2026-10-28T02:49:00.000Z",
+     "score": 1,
+     "themes": [
+      "CPO"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "3406",
+   "name": "玉晶光",
+   "m": "tse",
+   "chg": 9.92,
+   "price": 1330,
+   "value": 7135450000,
+   "news": [
+    {
+     "title": "台股大漲近千點站回萬七！ASIC、散熱、記憶體全面反彈，趨勢選股：玉晶光、聯茂、華新科誰在轉強？",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBHMlU5NlRlUm54elQ3ZC1TTWpFQUFLMy1FLTRyVmRFcENCanZqODBNMHppQlRteU5oMjJmUmk0RUFtMHlEZlIyQU40QjA4VmRkLW01RVVVTTZGQk5vamNvaGFidDZxSVhCckU3N3lwbWZsUkRETXVMVkphYVk5QQ?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-28T09:59:09.000Z",
+     "score": 1,
+     "themes": [
+      "ASIC",
+      "記憶體",
+      "散熱"
+     ]
+    },
+    {
+     "title": "從手機鏡頭紅到AI光通訊！玉晶光漲停創天價 光學股全面沸騰",
+     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9EZnBSSmotZXNLVE9sYWNnX0FhV3BKcy1CNm9sNW40NGZvQW9LM2VOMW9uTWl6Tml5bkNPRFJfZmg4dnBTWHVFZ3picWs?oc=5",
+     "source": "聚財網",
+     "pub": "2026-10-28T09:31:45.000Z",
+     "score": 1,
+     "themes": [
+      "光通訊",
+      "光學",
+      "鏡頭"
+     ]
+    },
+    {
+     "title": "玉晶光攜3M股價亮燈！大立光收盤大漲335元 光學股集體反攻",
+     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBzZTJDaWgwbjEtTl9HZV9hRE45ckY0WEpOV0JUNEV0SlA4ZEdjOWkzZTBhUmo3akRQbE1EWUJTb2wtMXBxMjU0QzJGTUM?oc=5",
+     "source": "聚財網",
+     "pub": "2026-10-28T08:18:54.000Z",
+     "score": 3,
+     "themes": [
+      "光學"
+     ]
+    },
+    {
+     "title": "光學元件漲勢洶洶！「這檔」止血連3跌15%重返百元大關 中揚光、玉晶光、雷笛克光學漲停",
+     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9XeGowb2JWSXNrY3U3NGtLLTR6bHoxUDRiTVhHOGRYRFNOalJzN2UxSGtzdDVRaHRCTWFHbTUyemt4TGg4ZGo3bUNEbw?oc=5",
+     "source": "FTNN 新聞網",
+     "pub": "2026-10-28T04:55:00.000Z",
+     "score": 1,
+     "themes": [
+      "光學"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "6456",
+   "name": "GIS-KY",
+   "m": "tse",
+   "chg": 9.92,
+   "price": 107.5,
+   "value": 3589210000,
+   "news": [
+    {
+     "title": "GIS-KY光通訊新事業拚出貨，2027貢獻看增 - 台股 - 新聞",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWVhwZjltRkFjQ0ZJWWYtSk1lLVRTdlc5WnRNVEViN2wxZjRQaUt0MlFTWjNOZmhNZVZuUDNnb2wtYk5IMjFOV3BzdnRFTG5sSS1jWE5mQ2wybU9yeDhNMThYTVlwMWhrRXl5bkJmVVJtQm4wSDRPRUVZbWtGOVhzRzZ3?oc=5",
+     "source": "MoneyDJ",
+     "pub": "2026-10-28T03:20:00.000Z",
+     "score": 1,
+     "themes": [
+      "光通訊"
+     ]
+    },
+    {
+     "title": "GIS-KY(6456)觸控本業衰退、光通訊資本支出上修至80億元！雷射封測最快2026年底貢獻，2027年成轉型關鍵",
+     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBIU2s3T0NJRXY5b2RKSTBpMHNoeHBHeEZFU1RTRlRHYS1BVHdRbTZscHlNc2NxelhjNVIxbmpnT0RLeUt5T0xQeEREOV95UUE?oc=5",
+     "source": "鉅亨網",
+     "pub": "2026-10-28T02:00:21.000Z",
+     "score": 0,
+     "themes": [
+      "光通訊",
+      "雷射",
+      "雷射封測"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "6727",
+   "name": "亞泰金屬",
+   "m": "otc",
+   "chg": 9.92,
+   "price": 454.5,
+   "value": 372690000,
+   "news": [
+    {
+     "title": "【09:59 即時新聞】亞泰金屬(6727)亮燈漲停，載板與CCL設備題材成盤中焦點",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMC1hWkx1Tkt1c3JIengwbE9udzZ5YmxEQVF6LVFfUWpzZ3dMQk9TcGR6RnhFSjFoVUR1dzNQZTRibEJTOTlDTFBUblZmdWZuYzJXbGpiNTlTWXFTZGJzS2tHRy1YbUREV3ctZU9LbW1jUnVONlE3dTRVNEN1dUNXQUFqdVZkcFRJMnhEY0J3?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-28T02:00:46.000Z",
+     "score": 2,
+     "themes": [
+      "載板",
+      "CCL",
+      "設備"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "6538",
+   "name": "倉和",
+   "m": "otc",
+   "chg": 9.9,
+   "price": 322,
+   "value": 452410000,
+   "news": [
+    {
+     "title": "【10:05 即時新聞】倉和(6538) 亮燈漲停，資金回流太陽能精密網版指標股",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWFFVZldHMlowZXQ1TkpmaHI3NHNsRHZCSW1HRjBENE02cXZSUWxkMzR1NW80LUxLMXZ5Q2IyMXhJeVRQaG5tN3ZxUkV6SlJjWkRtV0Y2RHRGUUxVTU9qaENjRWNBUWhGY0daNnhFdVc0Vl9zcHl1VmEwa3dzM1ZYQXJqSEdDbFRuVUQ0Z1R3?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-28T02:07:32.000Z",
+     "score": 2,
+     "themes": [
+      "太陽能"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "2455",
+   "name": "全新",
+   "m": "tse",
+   "chg": 9.87,
+   "price": 512,
+   "value": 4889088000,
+   "news": [
+    {
+     "title": "矽光子紅燈連發！「這檔」連2漲13%挾穩懋、全新、IET漲停 旺矽、日月光、上詮都攻6%",
+     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1mWkNIYkRPUmpCVG9aMXVVYUM3WGg1YXV5N3JmRG10NXpjQVJYelUzWVozU2tPM2lHTUpGWUd6X0hxRWE2YWg3eEhSVQ?oc=5",
+     "source": "FTNN 新聞網",
+     "pub": "2026-10-28T08:50:00.000Z",
+     "score": 3,
+     "themes": [
+      "矽光子"
+     ]
+    },
+    {
+     "title": "【11:01 即時新聞】全新(2455)股價走強靠攏5字頭，AI光通訊題材受關注",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbXBzZmRNTEYzckY5ZURjU2VIMEpIdzZLZDB2UXVlTEQtXzFac1pSWVJhVXlfWEo1WkN1bXhjVjNkZTJ4R1doUE1kV0FKYS1XS2xITGk4ZEtyLS04Xy1nbWsxbVBsYWxNUzhGZldUNDBSMVE4Q2tXNU5mVTVtZEZWMXFaZmJHRkwtemV1c193?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-28T03:01:26.000Z",
+     "score": 0,
+     "themes": [
+      "光通訊"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "6668",
+   "name": "中揚光",
+   "m": "tse",
+   "chg": 9.87,
+   "price": 57.9,
+   "value": 288226200,
+   "news": [
+    {
+     "title": "光學元件漲勢洶洶！「這檔」止血連3跌15%重返百元大關 中揚光、玉晶光、雷笛克光學漲停",
+     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9XeGowb2JWSXNrY3U3NGtLLTR6bHoxUDRiTVhHOGRYRFNOalJzN2UxSGtzdDVRaHRCTWFHbTUyemt4TGg4ZGo3bUNEbw?oc=5",
+     "source": "FTNN 新聞網",
+     "pub": "2026-10-28T04:55:00.000Z",
+     "score": 1,
+     "themes": [
+      "光學"
+     ]
+    },
+    {
+     "title": "中揚光無人機出貨看增，下半年盼優於上半年- 新聞",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPODNGNzFNVTFYd2tBeVVsYmZyai04OFB1TVR3VXRkWm1ZT29NZHQ4RUxLUDJWbThHUWxvTWZmd21YV0JUOGxfSzREZVR5dU1HRTBfTnZKbkZGajVFV1JWc3FBRjltY2d2RU1qbU1XWkU1N3hWLXdpN25ZZWNpZk9VTjJHYXFUSllnSEpIZlczclRRdw?oc=5",
+     "source": "MoneyDJ",
+     "pub": "2026-10-28T02:45:00.000Z",
+     "score": 1,
+     "themes": [
+      "無人機"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "1560",
+   "name": "中砂",
+   "m": "tse",
+   "chg": 9.86,
+   "price": 914,
+   "value": 2137846000,
+   "news": [
+    {
+     "title": "矽晶圓終於回神！「這指標股」止跌漲逾4%、中砂直逼漲停 漢磊噴半根、昇陽、德微均漲4%",
+     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE90Z3EzMTJ3X3FtMFlHZDRmLXVENFpMdFMtMmxhUG9kODI5eV9XVXVSYWpscDVCVlQzNWdhVGY5bVpxcmYwTFB0NFR1TQ?oc=5",
+     "source": "FTNN 新聞網",
+     "pub": "2026-10-28T08:20:00.000Z",
+     "score": 2,
+     "themes": [
+      "矽晶圓"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "3321",
+   "name": "同泰",
+   "m": "tse",
+   "chg": 9.86,
+   "price": 19.5,
+   "value": 10081500,
+   "news": [
+    {
+     "title": "PCB全面沸騰！「CCL廠」連4日大跌21%後觸底反彈漲5.47% 敬鵬、尚茂漲停、同泰連拉2根",
+     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1MX19pLXN0QjJxUVUxMS1oWFY3dWx2V2RPbVBMSWRkV3JKeUxzUjByR202aU9uU1dxZjU2c3BjWDdzZWZuemJBWHcydw?oc=5",
+     "source": "FTNN 新聞網",
+     "pub": "2026-10-28T03:25:00.000Z",
+     "score": 0,
+     "themes": [
+      "PCB",
+      "CCL"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "5013",
+   "name": "強新",
+   "m": "otc",
+   "chg": 9.86,
+   "price": 51.8,
+   "value": 30044000,
+   "news": [
+    {
+     "title": "【10:13 即時新聞】強新(5013)亮燈漲停，螺絲線材族群買盤聚焦",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSkZnNjN0cGsza1V1bDVUekNjOU1Ca2I3SHRoM00wbXBBM3hkeUJZdW9CRGYzT3FpWUtFMTM3OXJ1b2Niem9UOXBaWHVCSnNwaVFNN0ZSRzVUMnE4YTktdDFNUU5maTZ0M2hrQk9pNGxteUdHa0lDY01iOGVRVXpTT1dpVGt4T1MyQV9zVWd3?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-28T02:17:42.000Z",
+     "score": 2,
+     "themes": [
+      "螺絲線材"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "6415",
+   "name": "矽力*-KY",
+   "m": "tse",
+   "chg": 9.83,
+   "price": 525,
+   "value": 3782625000,
+   "news": [
+    {
+     "title": "【10:54 即時新聞】矽力*-KY(6415)勁揚逾9%，AI伺服器電源概念續受關注",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORTZ4cFZpX3haZVVWT3pHRzRVZ0ctMEpHX2NYQWxpYXNsRHF6N2E3ckhySVRvOWd2WGlUR19pN1ZLSkZjaFJlNTRzQlR0OURSR1dzNFpaWUhxbmxuRU5nZi1qWHNiWHNNNm1kdnQyU2RVTmVtdk5EZDZkekR1ejdwUjNBVWppZ2pHREcxeXJR?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-28T02:54:43.000Z",
+     "score": 0,
+     "themes": [
+      "AI伺服器",
+      "伺服器",
+      "電源"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "4903",
+   "name": "聯光通",
+   "m": "otc",
+   "chg": 9.8,
+   "price": 52.1,
+   "value": 298637200,
+   "news": [
+    {
+     "title": "聯光通儲能業務成長 上半年轉虧為盈",
+     "link": "https://news.google.com/rss/articles/CBMi4AVBVV95cUxQcGVyclBVd1J3NUdkM0N3alNQNXd3X2Q1M0QxaTEzNHJCS0pyLUNsR3FkV2RYaTQ2cmpzWWliUFdLTWk1R2l2YzZjdVZqUnJ0Zk1hMlQ3Sk1hZHFmRkd0ZE04Wm9wTkZpcjBJX0gwWUc4ZDJXNDhKbkVkSEhzeUswV281ZmVuY0RtaHNHc0NxX3Nsc3B4X2xCOFBiQncxbkxTd292XzhWdDZKbVE1RlJ1bUgxeE41NGZCaTlLc2dHOHBJY0IyOUg5TjRJZDF0MzNyRzhZWHZqek12TmJVQ29yaHhKblJwNFVkalQxa0VrYTMtc1RuSE1vcVJvMUg2bXdOLTUxQzZSVjh6RG9zYnhsSkJ3a200UzVuUTRpSENKTUU4Qncwd2xwTmNfVnhHaWhLTmkwS1ljWUZPUVNpcVBHdnFfZk41U1llQVpfR2k1MmtTNlI1RUpGWGVuWHRqYldKY1k4UUo4bEtMRDZ6VXJQbUdPTXpZY3ZWc2Z3VGVLQ0tjZnFZVXBxWGZmN003a3hQTUtydUh1My1HZVUwQ0NPSjdDcGJseHpnQmF3TmNvTmRyYWt5YWtpYjBuNUxtREtwN01QZVRwSkZQUmVzN1hjbEhuc20xaGhjWnV2eXJLSFlKak5aNHJISUNnSHVnazdZaHAyYmtNRkd4OFJtRzdlbWhLZ1dfUTNUOUxyZHlKcER5cXlWZGR0QnZuSTlLWDZ4Mk9pdE9WSC1zSE5BY0U3bjZhaEZtRWpLNUVzamtmU3lRcWhIY1BYaHV0MmhtR0x1MG5JOXVDbzl5WVZtNWVmblJpVHNoT19TQlpnSmpjRU5MaEhMQmpYUXNyb2c0TXBxR2NpelNTdy1YMUhEaXdBM1R2YVhDcVFMUVFCZ1VWbTVVbzdlTXYtam94dF9yQnRZalFhUzg0eDU0X0pFaUkydkJ3VFVvczFCLV9majhScUtENVQ4Y0oyeDBrZjllSWEt?oc=5",
+     "source": "理財周刊",
+     "pub": "2026-10-28T03:34:12.000Z",
+     "score": 1,
+     "themes": [
+      "儲能"
+     ]
+    },
+    {
+     "title": "【10:24 即時新聞】聯光通(4903)亮燈漲停，表後儲能與光通訊工程成盤中焦點",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRG9mZFcwUkpXbmFfNXJ0dlBMbzFOSk5uWk5Jbi00TnNhWC0tdms0UTA0bnZMV09xZWtUOHRDZGhiYkhuT1NJVzRVY1JqRHZZQV9OMTNlc0ZGRWdoQVg2N2Y4cnVoOXcza3dYN2VCYnJkbDRDa1BuZ0tvQzVIWXdCY2o2NlNGNUZhbllCcTln?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-28T02:24:27.000Z",
+     "score": 2,
+     "themes": [
+      "光通訊",
+      "儲能"
+     ]
+    },
+    {
+     "title": "聯光通儲能業務成長 上半年轉虧為盈",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WQUlvcU9QSERqQ3hZclFZUzNDeE1ORnJjdEY3YTFqb1FWT1pTc3EtQk9VcDdZR21YcXlMa0VKODFyd2Q3QUxMOHloNUZra0JhWVE?oc=5",
+     "source": "蕃新聞",
+     "pub": "2026-10-28T00:00:00.000Z",
+     "score": 1,
+     "themes": [
+      "儲能"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "2368",
+   "name": "金像電",
+   "m": "tse",
+   "chg": 9.72,
+   "price": 1185,
+   "value": 8680125000,
+   "news": [
+    {
+     "title": "大摩早就預告有戲！喊話玻纖布短缺、ABF設備交期拉長PCB狂歡7檔亮出漲停…富喬、金像電、景碩都中了",
+     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5hZ0FNeVBMa0l3dWtLODI0N2pPYVQweDM2ai12bnY0aXEtM2NrUUdmVkwyZFQwMEhuUHVYSmg0Y3JJcnF4TFVfdkVDNA?oc=5",
+     "source": "FTNN 新聞網",
+     "pub": "2026-10-28T10:45:00.000Z",
+     "score": 1,
+     "themes": [
+      "PCB",
+      "ABF",
+      "設備"
+     ]
+    },
+    {
+     "title": "低軌衛星起飛！「這檔」Q3 EPS達16元領金像電、穩懋等4檔漲停 台燿、聯發科都噴7%",
+     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBhdmUtZU5RajkwVnA3WDhRaXRyc25KYXY3UXZndWhneXB0STlJQnQzYU4yZjhQVVdYN0NjbU8wWWZFVHF2a1hTbFBHYw?oc=5",
+     "source": "FTNN 新聞網",
+     "pub": "2026-10-28T10:10:00.000Z",
+     "score": 2,
+     "themes": [
+      "低軌衛星",
+      "衛星"
+     ]
+    },
+    {
+     "title": "PCB多頭大軍出動！金像電、景碩領軍7檔漲停 台光電、臻鼎跟著衝",
+     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE92U1N2WGFsci1PampTc2Vtc1k2NWc1MHdhZTJfaUh3Ni1mZ0FaeVBNdGtZQjU0Tk9zZjNsd3FvT1lGTnBZeEtKNkNyM2Y?oc=5",
+     "source": "聚財網",
+     "pub": "2026-10-28T09:16:46.000Z",
+     "score": 1,
+     "themes": [
+      "PCB"
+     ]
+    },
+    {
+     "title": "《電零組》金像電產能添戰力 16.5億元跨國買設備",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNX2Vfc0kzYmt1bDZiVUFqMFZ1Sk9Ja1hRTU5tbjEzN3NhNDItYjdWYldtcFhablNrWWQwTTI4RkItVVVQOFBaXzU0Ymw1eGYxWW5kd1FjbE8xX2xKb0VsQ2g1OEVoeHhBYWoxOG9SX1ZCZEFaUV9qNS1pYVhtZ3FMTEplaFRxbThX?oc=5",
+     "source": "富聯網",
+     "pub": "2026-10-28T08:10:00.000Z",
+     "score": 0,
+     "themes": [
+      "設備"
+     ]
+    },
+    {
+     "title": "金像電砸逾16億元添購德國 Schmoll 設備擴產",
+     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBXM0hPZFZiODR6SDlac043dUgzRDFFQ0xlUUdETVdFanIwOHYyODI1WWxEbUhLZVg1MWVXYVo5X1JVajl0N2Uxdlk2TmRQQzVOcFozeXFfenhEbWZFV0ZxemF2Sm45REVaSmVHZ0FqZjhSQdIBVkFVX3lxTE9ra0xOenBCbjFIVFRuYWxzSldjZ3V5d0xLUjRzOG5qLWZHUDhOSXA0T1B6czVxMHhoVjFZU3E2UFVWQXZRZHZXN3FsRGp6UEpiYkl6eEFB?oc=5",
+     "source": "UDN",
+     "pub": "2026-10-28T08:05:51.000Z",
+     "score": 1,
+     "themes": [
+      "設備"
+     ]
+    },
+    {
+     "title": "衛星股盤中集體升空！大眾控、金像電攻漲停 台燿飆7%、台光電大漲270元",
+     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBjblRrUTFBazBxVzhqU3hjRmxYcTlvNGJLLWVyb1V0aklldDhfVnJhLUptVDdpY01uV0dFWUFRM3RSSThISUxIVGZKbko?oc=5",
+     "source": "聚財網",
+     "pub": "2026-10-28T05:37:57.000Z",
+     "score": 3,
+     "themes": [
+      "衛星"
+     ]
+    },
+    {
+     "title": "【12:28 即時新聞】金像電(2368)股價走強站上千元關卡，AI伺服器板材題材續受關注",
+     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9sV05sUTh5YWFyVW00RGhPbHZ1Wjk1QmpESERQTHdDQTRnNHpSU0Z1RlRDR2tQcDU3QnZoY3owajNHbHZndVN1ejlycEpwRy1jdlZoTG5jTFNhSE1HdVdGMUpYY3NaTkU?oc=5",
+     "source": "CMoney",
+     "pub": "2026-10-28T04:29:14.000Z",
      "score": 0,
      "themes": [
       "AI伺服器",
@@ -180,64 +1178,41 @@
    ]
   },
   {
-   "code": "2049",
-   "name": "上銀",
+   "code": "2465",
+   "name": "麗臺",
    "m": "tse",
-   "chg": 9.87,
-   "price": 328.5,
-   "value": 1922053500,
+   "chg": 9.69,
+   "price": 103,
+   "value": 724193000,
    "news": [
     {
-     "title": "上銀機器人零件開始出貨！盟立、東台齊亮燈 機器人大軍搶走台股聚光燈",
-     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBESDU1dmNVSVNaMUJkZmFXcXdzUW1oNGc3Y01lS0ljTnYyRE5Lc3NWN1FOZGxqQ19hR2s5OF9OemxaYUxDWE15NV9EakY?oc=5",
-     "source": "聚財網",
-     "pub": "2026-10-27T11:18:27.000Z",
-     "score": 3,
-     "themes": [
-      "機器人"
-     ]
-    },
-    {
-     "title": "1597 直得- 【今日盤後速報】上銀證實人形機器人分批出貨，傳動與自動化股走強，誰有營收支撐？ - 股市爆料同學會",
-     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5IN1NnVEhONE1NQTNuejExdng2MEhtcl9fNEQ3cVYyVmNVTXI3dGVlZXVlc1FIcEhrckNDZTZRWHdlVWl6X1h4Qi1mNkV1NktJOXdCUEdtTVc?oc=5",
-     "source": "CMoney",
-     "pub": "2026-10-27T10:45:45.000Z",
-     "score": 1,
-     "themes": [
-      "機器人",
-      "人形機器人"
-     ]
-    },
-    {
-     "title": "【今日盤後速報】上銀證實人形機器人分批出貨，傳動與自動化股走強，誰有營收支撐？",
-     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBKM2MwSW5JODNhSTJLRFkycHhkZ2FfaC1zcFdHdnphSVkxOUxJU0o4dUNqdjU3ZUg2OENCNl9wRTY2eEFpU1oyOEJuOEZNTm9BcjB6V2IxR3RXRExyU05pckNfLXNsVVRZaHF0MWJmVkFaQ0RSSGxCZV9tYWtjQQ?oc=5",
-     "source": "CMoney投資網誌",
-     "pub": "2026-10-27T10:45:42.000Z",
-     "score": 1,
-     "themes": [
-      "機器人",
-      "人形機器人"
-     ]
-    },
-    {
-     "title": "上銀突傳重磅消息！人形機器人零件開始出貨 股價飆漲停、大銀也一度亮燈",
-     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE14dzllSWlTMm45QlRhaERjczQ2RXdKYUlSbHNSdDd0Vm5JT0pBaERqTE1CQ3VFZVN5MkNON2FvRXlnaENCOGJqOFFwVQ?oc=5",
-     "source": "FTNN 新聞網",
-     "pub": "2026-10-27T06:15:00.000Z",
-     "score": 3,
-     "themes": [
-      "機器人",
-      "人形機器人"
-     ]
-    },
-    {
-     "title": "傳動元件與機器人需求大增！訂單能見度達2027年，上銀等台廠逆勢突圍-財經焦點情報站",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQTJyd3gzUE13bFlUNGRJeE5rYzJtdzhWeVlCN09tZXJTUXluMTlYQk4zME5uYU54Vzg3YjgzZzBYR2dyaXl3N2NMZFllLVRCLVN2bE00ZmZ0bnFaMVlaX3FTYWk2RjNPMWFpSUwwekVyMUVSWE1zMTZlTTNqUlUyUlp3?oc=5",
-     "source": "CMoney投資網誌",
-     "pub": "2026-10-27T04:39:37.000Z",
+     "title": "麗臺（2465）深度解析：輝達漲價效應與大訊肯微入主，AI 算力代理商站上百元大關",
+     "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5Zc0tUQno2TVhJdms5ZVBhejVySXZfVWNqWEZ3d083Zlo5Q215TEdHbGxIMFlWRUs2WXVQcmstTGlra00?oc=5",
+     "source": "913 理財估測站",
+     "pub": "2026-10-28T08:34:50.000Z",
      "score": 0,
      "themes": [
-      "機器人"
+      "輝達"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "6108",
+   "name": "競國",
+   "m": "tse",
+   "chg": 9.68,
+   "price": 34,
+   "value": 231302000,
+   "news": [
+    {
+     "title": "【12:04 即時新聞】競國(6108)盤中走強突破3字頭，資產處分與營收動能成焦點",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOa0tkSXFCbklrRzYzVVpiN2p3X2QxVUFXSk80SjFLVGxLemJJRlNlMkVpNkhmN2tFM05yM0RjeWFRSEVmeC1xOHZsSHNSQUtSWXVoNHJId3k5S1haSmlwekJhUjd3THFSajlTR0xzWjlWRm5GaGE1QnpaSlJnbTZ2MVQtS1dxaE4yQWs4ZEtn?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-28T04:05:29.000Z",
+     "score": 0,
+     "themes": [
+      "資產"
      ]
     }
    ]
@@ -246,15 +1221,15 @@
    "code": "3691",
    "name": "碩禾",
    "m": "otc",
-   "chg": 9.63,
-   "price": 119.5,
-   "value": 475371000,
+   "chg": 9.62,
+   "price": 131,
+   "value": 305361000,
    "news": [
     {
-     "title": "【09:23 即時新聞】碩禾(3691)急漲逾9%站上119元，太陽能導電漿題材受關注",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNmV0Smpnb3ZSNHlnWG1TanlZd1d1dmU2ZXNlanBrNm0yYkYzOHdGZ1hCeFREQVZRYmFzSjJ2U1NYb1BseTRxblBoUk5TU0J2NXlPTmlMckZsN2ExZzNTZk53b19PYnRIdmdwamRxb01Jd3Y2OU5wRXI1THExc1VTXzZheXlXcWdCbmlsLUdR?oc=5",
+     "title": "【10:26 即時新聞】碩禾(3691) 盤中勁揚逾9% 聚焦太陽能導電漿動能",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRl9pVFZjT1ZQclBUV3hzUjNFZTBYYnhVZEdpOXVHcVVRVUtnb3RjTlBfT3dzd0Vfb0dQby11WWdTZnBOeVFVWUR0LTY1TDdlQWJLWTkzWXNOWkZnLWE4NFJZZVdJeE43MUE4TW5BM0p3ODdRYjR4blZnVE1OcFQzb0taZHlOSkpmZDR3cEhn?oc=5",
      "source": "CMoney投資網誌",
-     "pub": "2026-10-27T01:24:02.000Z",
+     "pub": "2026-10-28T02:27:50.000Z",
      "score": 0,
      "themes": [
       "太陽能"
@@ -263,18 +1238,49 @@
    ]
   },
   {
-   "code": "6245",
-   "name": "立端",
+   "code": "8358",
+   "name": "金居",
    "m": "otc",
-   "chg": 9.1,
-   "price": 98.3,
-   "value": 405585800,
+   "chg": 9.39,
+   "price": 460,
+   "value": 964160000,
    "news": [
     {
-     "title": "【09:50 即時新聞】立端(6245)股價走強，無人機與網安題材成盤中焦點",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaW1lOElxNDNjUk90c3BLcmMzZHhyczhDdnB4Nm9FX1ZjWlh5Vk5KUlVNcXprWTJvX2ZSV21tZlotempRRlp5N1lwTlpXOWFVOURsSTQ3SU1xOG5ORGRkMkRtNk5QajhFQkx0dXdURFNtVWVobER5V2Q2VUoza3VMWGQzS2E1MXdyckdKV09B?oc=5",
+     "title": "金居HVLP5銅箔 鎖定下一代AI伺服器",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNM2IzVnhQSkpUaFVPc1lSTkJic0ptZi03MWZ5WjBBdXpfY1NZeUNvQlBRQ0ZzOHlicXBuVld2TFJzQ2tleVU3OE5iTmdfT183TnJUbTU2Smx0QzhWTWpxcHZIVFhaS3FJaU9RLVlHNF9zN3VjTHl1SUhQVXdKeXdFVGN0T1hCY095ZjFrYUhKWEdGWElzY0U3cG8xZmFHV0N4UzFGR1p6ZzVKMWxCWWNSamhPSHg5ZWktbWhJTFhLcjBxalcwQ1dzWFF1U3MybE5YbnE2V1ZTcUQ0c3E0ZW9SanRhUloxOUF5NnlR?oc=5",
+     "source": "台灣好新聞",
+     "pub": "2026-10-28T07:37:23.000Z",
+     "score": 0,
+     "themes": [
+      "AI伺服器",
+      "伺服器"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "3149",
+   "name": "正達",
+   "m": "tse",
+   "chg": 9.02,
+   "price": 72.5,
+   "value": 421370000,
+   "news": [
+    {
+     "title": "3149 正達- 美國康寧業績很好-今天玻璃基板都集體回神了-平安順心- 股市爆料同學會",
+     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9GNWZsaXhIalJZSzhYTkV1WXJJVE9TTHFiNnBrUjlORkJuc0N3TjAwUGJKVWdNWG80XzlYS1A0MEF6TFFQMkJaZzlub3drajZWV2ZxQTNmbDY?oc=5",
+     "source": "CMoney",
+     "pub": "2026-10-28T03:59:50.000Z",
+     "score": 0,
+     "themes": [
+      "玻璃基板"
+     ]
+    },
+    {
+     "title": "【10:51 即時新聞】正達(3149)盤中勁揚逾9% 無人機題材成焦點",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWXhaa3dydU5SUDI5R0FNcEdOZXViWUdZZWZMZmduS19GZVF6ejA1YWk1QUtHcUVoWXY1NVNsU2w4aGxybDIwR2EtWVRmeXBBRXJybnp1OUkwa3FXMFhKWHlsYXlhUlR3ZjJ2ek9nRTlvVW5xaGxKVzA3SFh4SEcxSFdSUmUtank3RklxTVBn?oc=5",
      "source": "CMoney投資網誌",
-     "pub": "2026-10-27T01:50:45.000Z",
+     "pub": "2026-10-28T02:51:22.000Z",
      "score": 0,
      "themes": [
       "無人機"
