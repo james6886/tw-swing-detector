@@ -1,117 +1,95 @@
 {
- "date": "2026-10-29",
- "scanTime": "22:10",
- "total9": 23,
+ "date": "2026-10-30",
+ "scanTime": "22:02",
+ "total9": 19,
  "items": [
   {
-   "code": "3105",
-   "name": "穩懋",
+   "code": "8272",
+   "name": "全景軟體",
    "m": "otc",
    "chg": 10,
-   "price": 594,
-   "value": 33486156000,
+   "price": 78.1,
+   "value": 11246400,
    "news": [
     {
-     "title": "《價值型投資 最新產業研究報告》穩懋（3105） 衛星需求帶動獲利改善，光通訊接收元件開始放量",
-     "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZOGZWSm1yeTVWU0xOOWlLalNnN0FINHNjY29ickNRUzl0QUszRjNJTWRmYmphLUt2eHJxZHRiYkF6TVM1V1k0bQ?oc=5",
-     "source": "鉅亨號",
-     "pub": "2026-10-29T07:27:56.000Z",
+     "title": "全景軟體H2旺季動能看增，零信任架構、後量子技術佈局添動能",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUkhqSVk2QmZWS01Falh2YXVLdTQwS2M2a09BbUZkdFBNdThjS0twYTdMZTFXY0hQLVpPR3puR2NVQkhPS3dweGpOZDhMajluYjFpQ1RxQUtkUXVQRmRwUUxnOWZwVUlkREtncUhKbTlxWGJBY0JBMnd2a05VSkNKbUpR?oc=5",
+     "source": "財訊快報",
+     "pub": "2026-10-30T03:50:36.000Z",
+     "score": 1,
+     "themes": [
+      "量子"
+     ]
+    },
+    {
+     "title": "焦點股：全景軟體(8272)H2旺季動能看增，零信任架構、後量子技術佈局添動能",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTU9sdWdCUFJOTGVnVmxCb3FjN1NuLXRMb0M0anFnTzJ1WW4zWUtGSUx2WS1STC13T0s0a0txRnpFSVhVUmVOVWQtRnRaaFNJSVk5b3dHbXdkUFBMMlFLUEJxM2RGQVdRSFJMQzBzeHhGcjE4Y19JXzBnUm15OElNLUdEMEN0N2I5?oc=5",
+     "source": "富聯網",
+     "pub": "2026-10-30T03:40:00.000Z",
+     "score": 1,
+     "themes": [
+      "量子"
+     ]
+    }
+   ]
+  },
+  {
+   "code": "7704",
+   "name": "明遠精密",
+   "m": "otc",
+   "chg": 9.95,
+   "price": 87.3,
+   "value": 227067300,
+   "news": [
+    {
+     "title": "【10:48 即時新聞】明遠精密(7704)盤中小漲，延續近期半導體設備關注度",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWVZTLWJWQzJlWlVsU1RGd1pNcmJYc2w5SmNhRG9EdG8yLW1NUFdBdndHMmJ2dDFfanl2VF9jZnQ2SGlOWm80UWhjOWlnU0FNSmZyWmtDZVBGcVdBandNSFJSZHlnVmt0QmtodmtudUlNUmtfcTJJS3NJWmppWktEbUFONF9aSXJYT2UwcGlB?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-30T02:49:21.000Z",
      "score": 0,
      "themes": [
-      "光通訊",
-      "衛星"
-     ]
-    }
-   ]
-  },
-  {
-   "code": "8291",
-   "name": "尚茂",
-   "m": "otc",
-   "chg": 9.98,
-   "price": 30.85,
-   "value": 3825400,
-   "news": [
-    {
-     "title": "PCB萬綠叢中一點紅！「FCCL廠」合作元太搶攻AI商機仍跌近3%、金居重挫5% 尚茂妖股發威拼連拉5根",
-     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1GcFZMX2xCRm9RUTdsZWpPaGM3cW1FbEFOWFVkNnBIOUNOMlNLVGdTM1lwbEhienlFN3RkRmw5Uk9RRG1tSnhVTERWOA?oc=5",
-     "source": "FTNN 新聞網",
-     "pub": "2026-10-29T03:55:00.000Z",
-     "score": 1,
-     "themes": [
-      "PCB",
-      "CCL"
-     ]
-    }
-   ]
-  },
-  {
-   "code": "6727",
-   "name": "亞泰金屬",
-   "m": "otc",
-   "chg": 9.9,
-   "price": 499.5,
-   "value": 1032966000,
-   "news": [
-    {
-     "title": "【09:34 即時新聞】亞泰金屬(6727)盤中強攻近一成，市場聚焦載板設備與營收動能",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRXliT2diRDBDcWhWVGd5bmx3ZTEtalROaWF2TV81UjVoY0xwUmNYUWtZR0NTMW5iSnVqVUlDWDB4WHdHVm5ncHVvdEhoMHF3RHJ4R0NUc0haSDZMMklyT24wZl93MXY1U1MzWVM0OUxHX1plaFlvd0dsbTV1NkNrd1E0a3U1WDVxV1g1Qk1n?oc=5",
-     "source": "CMoney投資網誌",
-     "pub": "2026-10-29T01:34:56.000Z",
-     "score": 1,
-     "themes": [
-      "載板",
+      "半導體設備",
       "設備"
      ]
     }
    ]
   },
   {
-   "code": "2352",
-   "name": "佳世達",
+   "code": "2466",
+   "name": "冠西電",
    "m": "tse",
-   "chg": 9.88,
-   "price": 32.8,
-   "value": 2839659999.9999995,
+   "chg": 9.94,
+   "price": 354,
+   "value": 395772000,
    "news": [
     {
-     "title": "無人機接單傳捷報！佳世達爆量8萬張衝漲停 分析師：轉強第一天",
-     "link": "https://news.google.com/rss/articles/CBMirgNBVV95cUxQc19WVThFWWRVYUluNkVlQTVtLUk4SldWenNMdUR3dERoclpyTkRORHJxZ2tGWmthbXNGbW1rMHM1anNUU29wV1JaMmZFM0ZLb281SDRkeTEwdko0eWhaZlRxMkFSQWo2b0FUUk5TRWdndmpmX0NvY0x4TGE4MzJ4V2xvUnMwVTh3WmdWdVpGY2lJaHNpWHAxTDYwWmZkbHdmNVBoMnVfa25URmVzMkNFRlU5UXVIYXRRQXYwYm9LcmJGR0RtdkE5LVpYSE1aeU5LRS1vWE16eGtYcnk1eVNPazlHQWJfTXNKcFM2emlnczFvdUdqWnoyRFBpU1RPOFV5Z3J1SEtTY1prSThfR0ItQ09VdjItNVJObHhkbmplYzM5QmdPOTk5aV9TS1hUYUZVZFdaQTJGakthZm9FaWljbmFTUjdVOVFZa1NaZWVOaWNEX1Bld2dpYkJRU2NRci1CTmdxRXh5djk3bXJwZFliRVRZYTh1dS1XZFFfbWZJNUlwREJ0SlpWWktUWGhINHRDWE55eHFiVEZYUlgtX3lYWUtQU1JSdDNlRk5YT0N3?oc=5",
-     "source": "Yahoo股市",
-     "pub": "2026-10-29T05:39:48.000Z",
-     "score": 1,
+     "title": "【09:58 即時新聞】冠西電(2466)盤中續強，機器人概念成盤面焦點",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONDFiZVhrOTd4N2YzZDZ0RE94ejJ3WTg2T3NUNW5KMzVYQzlmMTd5VlY0dVB4bWNna1NweXFzQlNZTDZELVp4X09EMmlnV0x0VS15cGwwT3pTQS1VZEtYRXR6dlNHeXU0MzVYM0Z1dUVpUndWSmRwYmg5bjFiaGNyT3ZKY2JpblJZSHhNT3JR?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-30T01:59:11.000Z",
+     "score": 0,
      "themes": [
-      "無人機"
+      "機器人"
      ]
-    },
+    }
+   ]
+  },
+  {
+   "code": "5245",
+   "name": "智晶",
+   "m": "otc",
+   "chg": 9.89,
+   "price": 20.55,
+   "value": 27105450,
+   "news": [
     {
-     "title": "佳世達自研無人機接獲大單 鎖定去紅供應鏈 每月出貨破千台",
-     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8yTHJmeTZrYUdtMEV4MHUwOTNzYkp0X1JySFVaSmlrU2hoWE54d2ZHTk01bTMyaVpvZHNmUC1yWWZFZTZtSWdDdnJSOUFjV1hCcEpaY2IwTHk?oc=5",
-     "source": "CMoney",
-     "pub": "2026-10-29T04:08:00.000Z",
-     "score": 1,
+     "title": "【10/30 產業即時新聞】面板族群重挫大跌，友達群創遭沉重賣壓調節、智晶逆勢亮燈抗跌",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVGp0YUQwWWZtelEtc2dPTmZrX2Z4N1VPbGEzLWVZeDZTbzJRQnVUNXllM3BWQzlMaG9qa25pRlFNWDhNejFNcVptZkpJQ3BxZUpzZERQSkdRNDhaTVAwMWwtejlOaXhfaTRhQjl5VkpqdDE2bnpFdkhLNXlaMzU5TTVlQ1Fsb1FTb3B6aUlSc1EzMGdDT29Wd2Z3dElXM0JmWmdkaG1iZDJkZkZKRTQ0WVd6bzB0ckdha2hNdmh1Tm9hNFNXSXVGYk9BZHFDYkU?oc=5",
+     "source": "CMoney投資網誌",
+     "pub": "2026-10-30T01:30:07.000Z",
+     "score": -2,
      "themes": [
-      "無人機"
-     ]
-    },
-    {
-     "title": "佳世達無人機接單報捷，2027月出貨拚千台- 新聞",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNzNtYjNmVU9SUjNQeVk2MFhodmUwcUVJR1FaY28wMndCMHBaVWxqQUY5OTBCS0xMcVJ3ZWtrRVdqS2NuU25vZDZSVlo0TUc5bEVvbnFjUzc3NWFvRnExeUEzUkVxS1BuSFVkUDFZaVlWc1hWQlRIR0N5M25CbGJnMTN1SVVLS0JpSDVhX2c3OUFTdw?oc=5",
-     "source": "MoneyDJ",
-     "pub": "2026-10-29T02:57:00.000Z",
-     "score": 1,
-     "themes": [
-      "無人機"
-     ]
-    },
-    {
-     "title": "佳世達無人機接單報捷 柯淑芬：2027年月出貨挑戰千台、股價先衝漲停",
-     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBKMVZwVUZ1U0FEOFFUY1lhOG1tbGM5MzJoZ0FOeS1kLXFHLS1tQTZLei1PcEZUVmVyZFlaWDN6N21QcDI1bGRHZkcyUTZTWnFidTVDTGJTSGxVelFXZEN6dG5pNmhNSjNaUUctdWw4Slc5czM4bjNoZ2t3?oc=5",
-     "source": "BigGo 財經",
-     "pub": "2026-10-29T02:55:00.000Z",
-     "score": 2,
-     "themes": [
-      "無人機"
+      "面板"
      ]
     }
    ]
