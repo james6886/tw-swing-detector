@@ -1,95 +1,24 @@
 {
- "date": "2026-10-30",
- "scanTime": "22:02",
- "total9": 19,
+ "date": "2026-11-03",
+ "scanTime": "23:02",
+ "total9": 13,
  "items": [
   {
-   "code": "8272",
-   "name": "全景軟體",
-   "m": "otc",
-   "chg": 10,
-   "price": 78.1,
-   "value": 11246400,
-   "news": [
-    {
-     "title": "全景軟體H2旺季動能看增，零信任架構、後量子技術佈局添動能",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUkhqSVk2QmZWS01Falh2YXVLdTQwS2M2a09BbUZkdFBNdThjS0twYTdMZTFXY0hQLVpPR3puR2NVQkhPS3dweGpOZDhMajluYjFpQ1RxQUtkUXVQRmRwUUxnOWZwVUlkREtncUhKbTlxWGJBY0JBMnd2a05VSkNKbUpR?oc=5",
-     "source": "財訊快報",
-     "pub": "2026-10-30T03:50:36.000Z",
-     "score": 1,
-     "themes": [
-      "量子"
-     ]
-    },
-    {
-     "title": "焦點股：全景軟體(8272)H2旺季動能看增，零信任架構、後量子技術佈局添動能",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTU9sdWdCUFJOTGVnVmxCb3FjN1NuLXRMb0M0anFnTzJ1WW4zWUtGSUx2WS1STC13T0s0a0txRnpFSVhVUmVOVWQtRnRaaFNJSVk5b3dHbXdkUFBMMlFLUEJxM2RGQVdRSFJMQzBzeHhGcjE4Y19JXzBnUm15OElNLUdEMEN0N2I5?oc=5",
-     "source": "富聯網",
-     "pub": "2026-10-30T03:40:00.000Z",
-     "score": 1,
-     "themes": [
-      "量子"
-     ]
-    }
-   ]
-  },
-  {
-   "code": "7704",
-   "name": "明遠精密",
-   "m": "otc",
-   "chg": 9.95,
-   "price": 87.3,
-   "value": 227067300,
-   "news": [
-    {
-     "title": "【10:48 即時新聞】明遠精密(7704)盤中小漲，延續近期半導體設備關注度",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWVZTLWJWQzJlWlVsU1RGd1pNcmJYc2w5SmNhRG9EdG8yLW1NUFdBdndHMmJ2dDFfanl2VF9jZnQ2SGlOWm80UWhjOWlnU0FNSmZyWmtDZVBGcVdBandNSFJSZHlnVmt0QmtodmtudUlNUmtfcTJJS3NJWmppWktEbUFONF9aSXJYT2UwcGlB?oc=5",
-     "source": "CMoney投資網誌",
-     "pub": "2026-10-30T02:49:21.000Z",
-     "score": 0,
-     "themes": [
-      "半導體設備",
-      "設備"
-     ]
-    }
-   ]
-  },
-  {
-   "code": "2466",
-   "name": "冠西電",
+   "code": "6467",
+   "name": "泰合",
    "m": "tse",
-   "chg": 9.94,
-   "price": 354,
-   "value": 395772000,
+   "chg": 9.82,
+   "price": 246,
+   "value": 378594000,
    "news": [
     {
-     "title": "【09:58 即時新聞】冠西電(2466)盤中續強，機器人概念成盤面焦點",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONDFiZVhrOTd4N2YzZDZ0RE94ejJ3WTg2T3NUNW5KMzVYQzlmMTd5VlY0dVB4bWNna1NweXFzQlNZTDZELVp4X09EMmlnV0x0VS15cGwwT3pTQS1VZEtYRXR6dlNHeXU0MzVYM0Z1dUVpUndWSmRwYmg5bjFiaGNyT3ZKY2JpblJZSHhNT3JR?oc=5",
-     "source": "CMoney投資網誌",
-     "pub": "2026-10-30T01:59:11.000Z",
+     "title": "泰合爆量衝高近10%！藥華藥強漲35元 生技股資金選邊站",
+     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1yS0xTRmV6OXIyZDI4MDdTN29zQ2RRYjlMUFgxT2oxbkNYVzkwWWdTeUpVelpIbUhjVFhvZlA0bEZhZDl3NWNPcGRVOGw?oc=5",
+     "source": "聚財網",
+     "pub": "2026-11-03T09:13:26.000Z",
      "score": 0,
      "themes": [
-      "機器人"
-     ]
-    }
-   ]
-  },
-  {
-   "code": "5245",
-   "name": "智晶",
-   "m": "otc",
-   "chg": 9.89,
-   "price": 20.55,
-   "value": 27105450,
-   "news": [
-    {
-     "title": "【10/30 產業即時新聞】面板族群重挫大跌，友達群創遭沉重賣壓調節、智晶逆勢亮燈抗跌",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVGp0YUQwWWZtelEtc2dPTmZrX2Z4N1VPbGEzLWVZeDZTbzJRQnVUNXllM3BWQzlMaG9qa25pRlFNWDhNejFNcVptZkpJQ3BxZUpzZERQSkdRNDhaTVAwMWwtejlOaXhfaTRhQjl5VkpqdDE2bnpFdkhLNXlaMzU5TTVlQ1Fsb1FTb3B6aUlSc1EzMGdDT29Wd2Z3dElXM0JmWmdkaG1iZDJkZkZKRTQ0WVd6bzB0ckdha2hNdmh1Tm9hNFNXSXVGYk9BZHFDYkU?oc=5",
-     "source": "CMoney投資網誌",
-     "pub": "2026-10-30T01:30:07.000Z",
-     "score": -2,
-     "themes": [
-      "面板"
+      "生技"
      ]
     }
    ]
