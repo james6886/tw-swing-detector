@@ -2,7 +2,8 @@
  "date": "2026-11-06",
  "prevDate": "2026-11-05",
  "scans": [
-  "20:35"
+  "20:35",
+  "21:07"
  ],
  "items": [
   {
@@ -12,10 +13,11 @@
    "prevChg": 9.94,
    "prevVol": 173,
    "prevClose": 17.15,
-   "vol": 2488,
-   "price": null,
-   "chg": null,
-   "at": "20:35"
+   "vol": 2499,
+   "price": 18.85,
+   "chg": 9.91,
+   "at": "20:35",
+   "lastCheck": "21:07"
   },
   {
    "code": "5205",
@@ -25,9 +27,10 @@
    "prevVol": 4,
    "prevClose": 20.95,
    "vol": 35,
-   "price": null,
-   "chg": null,
-   "at": "20:35"
+   "price": 23,
+   "chg": 9.79,
+   "at": "20:35",
+   "lastCheck": "21:07"
   },
   {
    "code": "6919",
@@ -36,10 +39,11 @@
    "prevChg": 9.9,
    "prevVol": 3123,
    "prevClose": 66.6,
-   "vol": 17566,
-   "price": 64.7,
-   "chg": -2.85,
-   "at": "20:35"
+   "vol": 18704,
+   "price": 64,
+   "chg": -3.9,
+   "at": "20:35",
+   "lastCheck": "21:07"
   },
   {
    "code": "1786",
@@ -48,10 +52,11 @@
    "prevChg": 9.97,
    "prevVol": 1407,
    "prevClose": 49.1,
-   "vol": 5844,
-   "price": 46.9,
-   "chg": -4.48,
-   "at": "20:35"
+   "vol": 6038,
+   "price": 47.05,
+   "chg": -4.18,
+   "at": "20:35",
+   "lastCheck": "21:07"
   },
   {
    "code": "3306",
@@ -60,10 +65,11 @@
    "prevChg": 10,
    "prevVol": 812,
    "prevClose": 45.65,
-   "vol": 1395,
-   "price": 45.85,
-   "chg": 0.44,
-   "at": "20:35"
+   "vol": 1472,
+   "price": 46.05,
+   "chg": 0.88,
+   "at": "20:35",
+   "lastCheck": "21:07"
   },
   {
    "code": "3019",
@@ -72,10 +78,11 @@
    "prevChg": 9.83,
    "prevVol": 8324,
    "prevClose": 128.5,
-   "vol": 12606,
-   "price": 123,
-   "chg": -4.28,
-   "at": "20:35"
+   "vol": 13056,
+   "price": 123.5,
+   "chg": -3.89,
+   "at": "20:35",
+   "lastCheck": "21:07"
   }
  ]
 }
