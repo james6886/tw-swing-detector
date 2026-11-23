@@ -1,49 +1,57 @@
 {
- "date": "2026-11-20",
- "prevDate": "2026-11-19",
+ "date": "2026-11-23",
+ "prevDate": "2026-11-20",
  "scans": [
-  "21:44",
-  "22:14"
+  "23:31"
  ],
  "items": [
   {
-   "code": "7584",
+   "code": "6725",
    "m": "otc",
-   "name": "樂意",
-   "prevChg": 9.89,
-   "prevVol": 424,
-   "prevClose": 44.45,
-   "vol": 529,
-   "price": 46.7,
-   "chg": 5.06,
-   "at": "21:44",
-   "lastCheck": "22:14"
+   "name": "矽科宏晟",
+   "prevChg": 9.93,
+   "prevVol": 387,
+   "prevClose": 155,
+   "vol": 1456,
+   "price": 170.5,
+   "chg": 10,
+   "at": "23:31"
   },
   {
-   "code": "6782",
+   "code": "6614",
    "m": "tse",
-   "name": "視陽",
-   "prevChg": 9.01,
-   "prevVol": 2161,
-   "prevClose": 290.5,
-   "vol": 2410,
-   "price": 283.5,
-   "chg": -2.41,
-   "at": "21:44",
-   "lastCheck": "22:14"
+   "name": "資拓宏宇",
+   "prevChg": 10,
+   "prevVol": 1797,
+   "prevClose": 40.7,
+   "vol": 4701,
+   "price": 44.75,
+   "chg": 9.95,
+   "at": "23:31"
   },
   {
-   "code": "2923",
-   "m": "tse",
-   "name": "鼎固-KY",
-   "prevChg": 9.91,
-   "prevVol": 461,
-   "prevClose": 34.95,
-   "vol": 508,
-   "price": 31.5,
-   "chg": -9.87,
-   "at": "21:44",
-   "lastCheck": "22:14"
+   "code": "7767",
+   "m": "otc",
+   "name": "仁大資訊",
+   "prevChg": 9.94,
+   "prevVol": 1664,
+   "prevClose": 55.3,
+   "vol": 3152,
+   "price": 50.7,
+   "chg": -8.32,
+   "at": "23:31"
+  },
+  {
+   "code": "5457",
+   "m": "otc",
+   "name": "宣德",
+   "prevChg": 9.95,
+   "prevVol": 6205,
+   "prevClose": 23.75,
+   "vol": 7443,
+   "price": 26.1,
+   "chg": 9.89,
+   "at": "23:31"
   }
  ]
 }
